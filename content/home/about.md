@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2017-01-02"
 draft = false
 
 widget = "about"
@@ -31,16 +31,22 @@ weight = 0
   year = 2013
 
 [[education.courses]]
-  course = "M.Sc. in Mathematics and Applications"
-  institution = "University of Lisbon"
-  year = 2008
-
-[[education.courses]]
-  course = "B.Sc. in Applied Mathematics and Computation"
+  course = "M.Sc. and B.Sc. in Mathematics and Applications"
   institution = "University of Lisbon"
   year = 2008
  
 +++
+
+# News
+
+* Paper accepted at **NDSS'17**: Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability. Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.
+
+* Paper accepted at **POPL'17**: Component-Based Synthesis for Complex APIs. Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
+
+* Paper accepted at **FSE'16**: Hunter: Type-Directed Code Reuse using Integer Linear Programming. Yuepeng Wang, Yu Feng, Ruben Martins, Arati Kaushik, Isil Dillig, Steven P. Reiss.
+
+* **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best overall MaxSAT solver in the partial MaxSAT category of the [MaxSAT Evaluation 2016](http://maxsat.ia.udl.cat/introduction/).
+
 
 # Biography
 
