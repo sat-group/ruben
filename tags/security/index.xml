@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/tags/security/index.xml</link>
+    <description>Recent content on Ruben Martins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ruben Martins</copyright>
+    <atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Astroid</title>
+      <link>https://sat-group.github.io/ruben/project/astroid/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/astroid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability, NDSS 2017</title>
+      <link>https://sat-group.github.io/ruben/publication/ndss17/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/ndss17/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
