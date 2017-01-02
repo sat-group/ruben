@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/index.xml</link>
+    <description>Recent content on Ruben Martins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ruben Martins</copyright>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Astroid</title>
+      <link>https://sat-group.github.io/ruben/project/astroid/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/astroid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability, NDSS 2017</title>
+      <link>https://sat-group.github.io/ruben/publication/ndss17/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/ndss17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Component-Based Synthesis for Complex APIs, POPL 2017</title>
+      <link>https://sat-group.github.io/ruben/publication/popl17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/popl17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SyPet</title>
+      <link>https://sat-group.github.io/ruben/project/sypet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/sypet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Generation of Propagation Complete SAT Encodings, VMCAI 2016</title>
+      <link>https://sat-group.github.io/ruben/publication/vmcai16/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/vmcai16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hunter: Next-Generation Code Reuse for Java, FSE 2016</title>
+      <link>https://sat-group.github.io/ruben/publication/fse16/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/fse16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hunter</title>
+      <link>https://sat-group.github.io/ruben/project/hunter/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/hunter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Using Incremental Encodings in Unsatisfiability-based MaxSAT Solving, JSAT 2015</title>
+      <link>https://sat-group.github.io/ruben/publication/jsat15/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/jsat15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</title>
+      <link>https://sat-group.github.io/ruben/publication/sat15/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/sat15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Cardinality Constraints for MaxSAT, CP 2014</title>
+      <link>https://sat-group.github.io/ruben/publication/cp14/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/cp14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-WBO: a Modular MaxSAT Solver, SAT 2014</title>
+      <link>https://sat-group.github.io/ruben/publication/sat14/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/sat14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-WBO</title>
+      <link>https://sat-group.github.io/ruben/project/open-wbo/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/open-wbo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community-based Partitioning for MaxSAT Solving, SAT 2013</title>
+      <link>https://sat-group.github.io/ruben/publication/sat13/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/sat13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel Search for Maximum Satisfiability, AI Comm. 2012</title>
+      <link>https://sat-group.github.io/ruben/publication/ai12/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/ai12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PWBO</title>
+      <link>https://sat-group.github.io/ruben/project/pwbo/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/pwbo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

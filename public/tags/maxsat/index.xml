@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/tags/maxsat/index.xml</link>
+    <description>Recent content on Ruben Martins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ruben Martins</copyright>
+    <atom:link href="/tags/maxsat/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open-WBO</title>
+      <link>https://sat-group.github.io/ruben/project/open-wbo/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/open-wbo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PWBO</title>
+      <link>https://sat-group.github.io/ruben/project/pwbo/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/pwbo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WBO</title>
+      <link>https://sat-group.github.io/ruben/project/wbo/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/wbo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
