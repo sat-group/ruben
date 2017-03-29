@@ -39,6 +39,8 @@ weight = 0
 
 # News
 
+* Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://arxiv.org/pdf/1611.07502v1.pdf) [arxiv version]. Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
+
 * Paper accepted at **NDSS'17**: [Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability](http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf). Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.
 
 * Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](http://www.cs.utexas.edu/users/yufeng/papers/sypet.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
