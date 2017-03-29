@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2017-01-02"
+date = "2017-03-29"
 draft = false
 
 widget = "about"
@@ -39,7 +39,7 @@ weight = 0
 
 # News
 
-* Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://arxiv.org/pdf/1611.07502v1.pdf) [arxiv version]. Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
+* Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://arxiv.org/pdf/1611.07502v1.pdf) [arxiv version]. Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri (to appear).
 
 * Paper accepted at **NDSS'17**: [Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability](http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf). Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.
 
