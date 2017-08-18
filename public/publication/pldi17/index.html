@@ -24,11 +24,11 @@
   <link rel="icon" type="image/png" href="/ruben/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/ruben/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://sat-group.github.io/ruben/publication/jsat15/">
+  <link rel="canonical" href="https://sat-group.github.io/ruben/publication/pldi17/">
 
   
 
-  <title>On Using Incremental Encodings in Unsatisfiability-based MaxSAT Solving, JSAT 2015 | Ruben Martins</title>
+  <title>Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017 | Ruben Martins</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -112,10 +112,10 @@
 
   <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="pub-title">
-      <h1 itemprop="name">On Using Incremental Encodings in Unsatisfiability-based MaxSAT Solving, JSAT 2015</h1>
+      <h1 itemprop="name">Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017</h1>
       <span class="pub-authors" itemprop="author">
         
-        Ruben Martins, Saurabh Joshi, Vasco Manquinho, Ines Lynce
+        Yu Feng, Ruben Martins, Jacob Van Geffen, Isil Dillig, Swarat Chaudhuri
         
       </span>
       <span class="pull-right">
@@ -124,35 +124,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fjsat15%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fpldi17%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=On%20Using%20Incremental%20Encodings%20in%20Unsatisfiability-based%20MaxSAT%20Solving%2c%20JSAT%202015&amp;url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fjsat15%2f"
+         href="https://twitter.com/intent/tweet?text=Component-Based%20Synthesis%20of%20Table%20Consolidation%20and%20Transformation%20Tasks%20from%20Examples%2c%20PLDI%202017&amp;url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fpldi17%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fjsat15%2f&amp;title=On%20Using%20Incremental%20Encodings%20in%20Unsatisfiability-based%20MaxSAT%20Solving%2c%20JSAT%202015"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fpldi17%2f&amp;title=Component-Based%20Synthesis%20of%20Table%20Consolidation%20and%20Transformation%20Tasks%20from%20Examples%2c%20PLDI%202017"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fjsat15%2f&amp;title=On%20Using%20Incremental%20Encodings%20in%20Unsatisfiability-based%20MaxSAT%20Solving%2c%20JSAT%202015"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fpldi17%2f&amp;title=Component-Based%20Synthesis%20of%20Table%20Consolidation%20and%20Transformation%20Tasks%20from%20Examples%2c%20PLDI%202017"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=On%20Using%20Incremental%20Encodings%20in%20Unsatisfiability-based%20MaxSAT%20Solving%2c%20JSAT%202015&amp;body=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fjsat15%2f">
+         href="mailto:?subject=Component-Based%20Synthesis%20of%20Table%20Consolidation%20and%20Transformation%20Tasks%20from%20Examples%2c%20PLDI%202017&amp;body=https%3a%2f%2fsat-group.github.io%2fruben%2fpublication%2fpldi17%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -166,14 +166,14 @@
     
 
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">This paper presents Open-WBO, a new MaxSAT solver. Open-WBO has two main features. First, it is an open-source solver that can be easily modified and extended. Most MaxSAT solvers are not available in open-source, making it hard to extend and improve current MaxSAT algorithms. Second, Open-WBO may use any MiniSAT-like solver as the underlying SAT solver. As many other MaxSAT solvers, Open-WBO relies on successive calls to a SAT solver. Even though new techniques are proposed for SAT solvers every year, for many MaxSAT solvers it is hard to change the underlying SAT solver. With Open-WBO, advances in SAT technology will result in a free improvement in the performance of the solver. In addition, the paper uses OPEN-WBO to evaluate the impact of using different SAT solvers in the performance of MaxSAT algorithms</p>
+    <p class="pub-abstract" itemprop="text">This paper presents a novel component-based synthesis algorithm that marries the power of type-directed search with lightweight SMT-based deduction and partial evaluation. Given a set of components together with their overapproximate first-order specifications, our method first generates a program sketch over a subset of the components and checks its feasibility using an SMT solver. Since a program sketch typically represents many concrete programs, the use of SMT-based deduction greatly increases the scalability of the algorithm. Once a feasible program sketch is found, our algorithm completes the sketch in a bottom-up fashion, using partial evaluation to further increase the power of deduction for rejecting partially-filled program sketches. We apply the proposed synthesis methodology for automating a large class of data preparation tasks that commonly arise in data science. We have evaluated our synthesis algorithm on dozens of data wrangling and consolidation tasks obtained from on-line forums, and we show that our approach can automatically solve a large class of problems encountered by R users.</p>
 
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">Journal on Satisfiability, Boolean Modeling and Computation, IOS Press</div>
+          <div class="col-xs-12 col-sm-9">Conference on Programming Language Design and Implementation, ACM.</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -186,7 +186,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            December, 2015
+            June, 2017
           </div>
         </div>
       </div>
@@ -206,16 +206,20 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://satassociation.org/jsat/index.php/jsat/article/download/126/107">
+<a class="btn btn-primary btn-outline" href="https://www.cs.utexas.edu/users/yufeng/papers/pldi17-extend.pdf">
   PDF
 </a>
 
 
 
+<a class="btn btn-primary btn-outline" href="https://www.cs.utexas.edu/users/isil/morpheus.mp4">
+  Video
+</a>
 
 
 
-<a class="btn btn-primary btn-outline" href="http://sat.inesc-id.pt/open-wbo/">
+
+<a class="btn btn-primary btn-outline" href="https://utopia-group.github.io/morpheus/">
   Project
 </a>
 
@@ -238,13 +242,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://sat-group.github.io/ruben/publication/sat15/"><span
-      aria-hidden="true">&larr;</span> Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</a></li>
+    <li class="previous"><a href="https://sat-group.github.io/ruben/publication/ndss17/"><span
+      aria-hidden="true">&larr;</span> Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability, NDSS 2017</a></li>
     
 
-    
-    <li class="next"><a href="https://sat-group.github.io/ruben/publication/fse16/">Hunter: Next-Generation Code Reuse for Java, FSE 2016 <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -255,7 +256,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2016 Ruben Martins &middot; 
+      &copy; 2017 Ruben Martins &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.

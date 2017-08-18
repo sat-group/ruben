@@ -39,23 +39,25 @@ weight = 0
 
 # News
 
-* Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://arxiv.org/pdf/1611.07502v1.pdf) [arxiv version]. Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri (to appear).
+* Checkout our Morpheus [video](https://www.cs.utexas.edu/~isil/morpheus.mp4) at **PLDI'17** on data reshaping!
+
+* Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://www.cs.utexas.edu/~yufeng/papers/pldi17-extend.pdf). Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
 
 * Paper accepted at **NDSS'17**: [Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability](http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf). Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.
 
-* Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](http://www.cs.utexas.edu/users/yufeng/papers/sypet.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
-
-* Paper accepted at **FSE'16**: [Hunter: Type-Directed Code Reuse using Integer Linear Programming](http://www.cs.utexas.edu/~isil/hunter.pdf). Yuepeng Wang, Yu Feng, Ruben Martins, Arati Kaushik, Isil Dillig, Steven P. Reiss.
+* Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](https://www.cs.utexas.edu/~isil/popl17-sypet-extended.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
 
 * **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best overall MaxSAT solver in the partial MaxSAT category of the [MaxSAT Evaluation 2016](http://maxsat.ia.udl.cat/introduction/).
 
 
 # Biography
 
-Ruben Martins is a postdoctoral researcher at the University of Texas at Austin,
-USA. Prior to joining UT Austin, he was a postdoctoral researcher at the
-University of Oxford, UK, and he received his PhD with honors from the 
-University of Lisbon, Portugal in 2013. His research aims to improve constraint
+Ruben Martins is a Systems Scientist at the Carnegie Mellon University, USA.
+Prior to joining CMU, he was a postdoctoral researcher at UT Austin where he 
+pushed the frontiers of program synthesis and security with constraint solving. 
+Before UT Austin, he was a postdoctoral researcher at the University of Oxford, UK
+where he worked on CBMC for software verification. He received his PhD with honors 
+from the University of Lisbon, Portugal in 2013. His research aims to improve constraint
 solvers and broaden their applicability in program analysis, synthesis, and
 security. Dr. Martins has developed several award winning solvers and has
 consistently improved the state-of-the-art in Maximum Satisfiability (MaxSAT)

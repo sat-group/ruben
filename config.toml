@@ -1,6 +1,6 @@
 baseurl = "https://sat-group.github.io/ruben/"
 title = "Ruben Martins"
-copyright = "&copy; 2016 Ruben Martins"
+copyright = "&copy; 2017 Ruben Martins"
 languageCode = "en-us"
 theme = "academic"
 enableEmoji = true
@@ -18,9 +18,8 @@ googleAnalytics = ""
   role = "Postdoctoral Researcher"
   organization = "University of Texas at Austin"
   avatar = "me.jpg"
-  email = "rmartins@cs.utexas.edu"
-  address = "The University of Texas at Austin Department of Computer Science, College of Natural Sciences 2317 Speedway, Stop D9500 Austin, TX 78712 GDC 5.720"
-  phone = "512-475-6974"
+  email = "rubenm@andrew.cmu.edu"
+  address = "Carnegie Mellon University, Gates Hillman Complex, 5000 Forbes Avenue Pittsburgh, PA 15213, GHC 7.129"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -63,7 +62,7 @@ googleAnalytics = ""
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:rmartins@cs.utexas.edu"
+    link = "mailto:rubenm@andrew.cmu.edu"
 
   [[params.social]]
     icon = "google-scholar"
