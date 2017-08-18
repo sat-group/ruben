@@ -15,8 +15,8 @@ googleAnalytics = ""
 
 [params]
   name = "Ruben Martins"
-  role = "Postdoctoral Researcher"
-  organization = "University of Texas at Austin"
+  role = "Systems Scientist"
+  organization = "Carnegie Mellon University"
   avatar = "me.jpg"
   email = "rubenm@andrew.cmu.edu"
   address = "Carnegie Mellon University, Gates Hillman Complex, 5000 Forbes Avenue Pittsburgh, PA 15213, GHC 7.129"

@@ -39,7 +39,7 @@ weight = 0
 
 # News
 
-* Checkout our Morpheus [video](https://www.cs.utexas.edu/~isil/morpheus.mp4) at **PLDI'17** on data reshaping!
+* Checkout our Morpheus [video](https://www.cs.utexas.edu/~isil/morpheus.mp4) at **PLDI'17** on data preparation tasks!
 
 * Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://www.cs.utexas.edu/~yufeng/papers/pldi17-extend.pdf). Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
 
@@ -52,7 +52,7 @@ weight = 0
 
 # Biography
 
-Ruben Martins is a Systems Scientist at the Carnegie Mellon University, USA.
+Ruben Martins is a Systems Scientist at the Carnegie Mellon University.
 Prior to joining CMU, he was a postdoctoral researcher at UT Austin where he 
 pushed the frontiers of program synthesis and security with constraint solving. 
 Before UT Austin, he was a postdoctoral researcher at the University of Oxford, UK
@@ -60,6 +60,4 @@ where he worked on CBMC for software verification. He received his PhD with hono
 from the University of Lisbon, Portugal in 2013. His research aims to improve constraint
 solvers and broaden their applicability in program analysis, synthesis, and
 security. Dr. Martins has developed several award winning solvers and has
-consistently improved the state-of-the-art in Maximum Satisfiability (MaxSAT)
-solving. He is currently the main developer of Open-WBO: an open source MaxSAT
-solver that won several awards in the MaxSAT competitions.
+consistently improved the state-of-the-art in MaxSAT solving. He is currently the main developer of Open-WBO: an open source MaxSAT solver that won several awards in the MaxSAT competitions.
