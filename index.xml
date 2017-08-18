@@ -6,9 +6,18 @@
     <description>Recent content on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Ruben Martins</copyright>
-    <lastBuildDate>Wed, 29 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Ruben Martins</copyright>
+    <lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi17/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/pldi17/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Astroid</title>
@@ -70,15 +79,6 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/hunter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Using Incremental Encodings in Unsatisfiability-based MaxSAT Solving, JSAT 2015</title>
-      <link>https://sat-group.github.io/ruben/publication/jsat15/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://sat-group.github.io/ruben/publication/jsat15/</guid>
       <description></description>
     </item>
     
