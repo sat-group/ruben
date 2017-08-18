@@ -6,7 +6,7 @@ date = "2017-06-01"
 title = "Morpheus"
 
 # Project summary to display on homepage.
-summary = "Table Transformation Tasks"
+summary = "Data Preparation Tasks"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "morpheus.jpg"

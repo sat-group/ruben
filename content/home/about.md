@@ -39,7 +39,7 @@ weight = 0
 
 # News
 
-* Checkout our Morpheus [video](https://www.cs.utexas.edu/~isil/morpheus.mp4) at **PLDI'17** on data preparation tasks!
+* Check out our Morpheus **[video](https://www.cs.utexas.edu/~isil/morpheus.mp4)** at **PLDI'17** on data preparation tasks!
 
 * Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://www.cs.utexas.edu/~yufeng/papers/pldi17-extend.pdf). Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
 
