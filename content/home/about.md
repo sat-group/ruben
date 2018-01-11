@@ -45,7 +45,7 @@ weight = 0
 
 * Paper accepted at **NDSS'17**: [Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability](http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf). Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.
 
-* Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](https://www.cs.utexas.edu/~isil/popl17-sypet-extended.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
+* Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](/ruben/papers/popl17-sypet-extended.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
 
 * **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best overall MaxSAT solver in the partial MaxSAT category of the [MaxSAT Evaluation 2016](http://maxsat.ia.udl.cat/introduction/).
 
