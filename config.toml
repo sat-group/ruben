@@ -18,8 +18,8 @@ googleAnalytics = ""
   role = "Systems Scientist"
   organization = "Carnegie Mellon University"
   avatar = "me.jpg"
-  email = "rubenm@andrew.cmu.edu"
-  address = "Carnegie Mellon University, Gates Hillman Complex, 5000 Forbes Avenue Pittsburgh, PA 15213, GHC 7.129"
+  email = "rubenm@cs.cmu.edu"
+  address = "Carnegie Mellon University, Gates Hillman Complex, GHC 7.129, 5000 Forbes Avenue Pittsburgh, PA 15213"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -96,6 +96,11 @@ googleAnalytics = ""
   weight = 2
 
 [[menu.main]]
+  name = "Calendar"
+  url = "#calendar"
+  weight = 4
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 4
+  weight = 5
