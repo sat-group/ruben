@@ -1,6 +1,6 @@
 baseurl = "https://sat-group.github.io/ruben/"
 title = "Ruben Martins"
-copyright = "&copy; 2017 Ruben Martins"
+copyright = "&copy; 2018 Ruben Martins"
 languageCode = "en-us"
 theme = "academic"
 enableEmoji = true
@@ -62,7 +62,7 @@ googleAnalytics = ""
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:rubenm@andrew.cmu.edu"
+    link = "mailto:rubenm@cs.cmu.edu"
 
   [[params.social]]
     icon = "google-scholar"

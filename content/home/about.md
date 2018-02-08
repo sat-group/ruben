@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2017-03-29"
+date = "2018-02-08"
 draft = false
 
 widget = "about"
@@ -13,12 +13,11 @@ weight = 0
 [interests]
   title = "Interests"
   interests = [
-    "Program Synthesis",
-    "Software Verification",
-    "Security",
+    "Constraint Solving",
     "Decision Procedures",
-    "Boolean Satisfiability",
-    "MaxSAT"
+    "Program Synthesis",
+    "Program Verification",
+    "Program Analysis"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -39,6 +38,10 @@ weight = 0
 
 # News
 
+* **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best MaxSAT solver in the incomplete and complete tracks for Unweighted MaxSAT at the [MaxSAT Evaluation 2017](http://mse17.cs.helsinki.fi/). 
+
+* **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** now available at [GitHub](https://github.com/sat-group/open-wbo)!
+
 * Check out our Morpheus **[video](https://www.cs.utexas.edu/~isil/morpheus.mp4)** at **PLDI'17** on data preparation tasks!
 
 * Paper accepted at **PLDI'17**: [Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples](https://www.cs.utexas.edu/~yufeng/papers/pldi17-extend.pdf). Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.
@@ -47,17 +50,8 @@ weight = 0
 
 * Paper accepted at **POPL'17**: [Component-Based Synthesis for Complex APIs](/ruben/papers/popl17-sypet-extended.pdf). Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.
 
-* **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best overall MaxSAT solver in the partial MaxSAT category of the [MaxSAT Evaluation 2016](http://maxsat.ia.udl.cat/introduction/).
 
 
 # Biography
 
-Ruben Martins is a Systems Scientist at the Carnegie Mellon University.
-Prior to joining CMU, he was a postdoctoral researcher at UT Austin where he 
-pushed the frontiers of program synthesis and security with constraint solving. 
-Before UT Austin, he was a postdoctoral researcher at the University of Oxford, UK
-where he worked on CBMC for software verification. He received his PhD with honors 
-from the University of Lisbon, Portugal in 2013. His research aims to improve constraint
-solvers and broaden their applicability in program analysis, synthesis, and
-security. Dr. Martins has developed several award winning solvers and has
-consistently improved the state-of-the-art in MaxSAT solving. He is currently the main developer of Open-WBO: an open source MaxSAT solver that won several awards in the MaxSAT competitions.
+Ruben Martins is a Systems Scientist at Carnegie Mellon University. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on using programming synthesis to automate data science related tasks such as data querying, imputation, consolidation, and tidying. Ruben received his PhD with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at University of Oxford, UK (2014-2015) and a postdoctoral researcher at UT Austin (2015-2017). He has developed several award winning constraint solvers and is the main developer of Open-WBO: an open source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions.
