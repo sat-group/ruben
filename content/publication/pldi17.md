@@ -14,7 +14,7 @@ url_dataset = ""
 url_pdf = "https://www.cs.utexas.edu/users/yufeng/papers/pldi17-extend.pdf"
 url_project = "https://utopia-group.github.io/morpheus/"
 url_slides = ""
-url_video = "(/ruben/files/morpheus.m4v)"
+url_video = "https://sat-group.github.io/ruben/files/morpheus.m4v"
 
 +++
 
