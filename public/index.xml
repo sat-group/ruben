@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi18/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/pldi18/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017</title>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/publication/sat13/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parallel Search for Maximum Satisfiability, AI Comm. 2012</title>
-      <link>https://sat-group.github.io/ruben/publication/ai12/</link>
-      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://sat-group.github.io/ruben/publication/ai12/</guid>
       <description></description>
     </item>
     

@@ -38,6 +38,8 @@ weight = 0
 
 # News
 
+* Paper accepted at **PLDI'18**: [Program Synthesis using Conflict-Driven Learning](/ruben/muse/pldi18.pdf). Yu Feng, Ruben Martins, Osbert Bastani, Isil Dillig.
+
 * **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** was the best MaxSAT solver in the incomplete and complete tracks for Unweighted MaxSAT at the [MaxSAT Evaluation 2017](http://mse17.cs.helsinki.fi/). 
 
 * **[Open-WBO](http://sat.inesc-id.pt/open-wbo/)** now available at [GitHub](https://github.com/sat-group/open-wbo)!
