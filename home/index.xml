@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home-rsses on Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/home/index.xml</link>
-    <description>Recent content in Home-rsses on Ruben Martins</description>
+    <title>Homes on Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/home/</link>
+    <description>Recent content in Homes on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
     <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sat-group.github.io/ruben/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://sat-group.github.io/ruben/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/publications/</guid>
+      <description>For a full list of publications see my Google Scholar Profile or DBLP.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://sat-group.github.io/ruben/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>https://sat-group.github.io/ruben/home/calendar/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/calendar/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sat-group.github.io/ruben/home/contact/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sat-group.github.io/ruben/home/about/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/about/</guid>
+      <description>News  Paper accepted at PLDI&amp;rsquo;18: Program Synthesis using Conflict-Driven Learning. Yu Feng, Ruben Martins, Osbert Bastani, Isil Dillig.
+ Open-WBO was the best MaxSAT solver in the incomplete and complete tracks for Unweighted MaxSAT at the MaxSAT Evaluation 2017.
+ Open-WBO now available at GitHub!
+ Check out our Morpheus video at PLDI&amp;rsquo;17 on data preparation tasks!
+ Paper accepted at PLDI&amp;rsquo;17: Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples.</description>
+    </item>
     
   </channel>
 </rss>

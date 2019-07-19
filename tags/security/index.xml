@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/tags/security/index.xml</link>
-    <description>Recent content on Ruben Martins</description>
+    <title>security on Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/tags/security/</link>
+    <description>Recent content in security on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
-    <atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sat-group.github.io/ruben/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Astroid</title>
@@ -15,7 +18,7 @@
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/astroid/</guid>
-      <description></description>
+      <description>Synthesis of Android Malware Signatures</description>
     </item>
     
     <item>
