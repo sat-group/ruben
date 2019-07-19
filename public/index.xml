@@ -2,13 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/index.xml</link>
+    <link>https://sat-group.github.io/ruben/</link>
     <description>Recent content on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
     <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sat-group.github.io/ruben/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://sat-group.github.io/ruben/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/publications/</guid>
+      <description>For a full list of publications see my Google Scholar Profile or DBLP.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://sat-group.github.io/ruben/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>https://sat-group.github.io/ruben/home/calendar/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/calendar/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sat-group.github.io/ruben/home/contact/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/contact/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>
@@ -17,6 +55,19 @@
       
       <guid>https://sat-group.github.io/ruben/publication/pldi18/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sat-group.github.io/ruben/home/about/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/home/about/</guid>
+      <description>News  Paper accepted at PLDI&amp;rsquo;18: Program Synthesis using Conflict-Driven Learning. Yu Feng, Ruben Martins, Osbert Bastani, Isil Dillig.
+ Open-WBO was the best MaxSAT solver in the incomplete and complete tracks for Unweighted MaxSAT at the MaxSAT Evaluation 2017.
+ Open-WBO now available at GitHub!
+ Check out our Morpheus video at PLDI&amp;rsquo;17 on data preparation tasks!
+ Paper accepted at PLDI&amp;rsquo;17: Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples.</description>
     </item>
     
     <item>
@@ -34,7 +85,7 @@
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/morpheus/</guid>
-      <description></description>
+      <description>Data Preparation Tasks</description>
     </item>
     
     <item>
@@ -43,7 +94,7 @@
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/astroid/</guid>
-      <description></description>
+      <description>Synthesis of Android Malware Signatures</description>
     </item>
     
     <item>
@@ -70,7 +121,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/sypet/</guid>
-      <description></description>
+      <description>Component-Based Synthesis for Java APIs</description>
     </item>
     
     <item>
@@ -97,7 +148,7 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/hunter/</guid>
-      <description></description>
+      <description>Next-generation code reuse tool for Java</description>
     </item>
     
     <item>
@@ -133,7 +184,7 @@
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/open-wbo/</guid>
-      <description></description>
+      <description>An open source MaxSAT solver</description>
     </item>
     
     <item>
@@ -143,6 +194,33 @@
       
       <guid>https://sat-group.github.io/ruben/publication/sat13/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel Search for Maximum Satisfiability, AI Comm. 2012</title>
+      <link>https://sat-group.github.io/ruben/publication/ai12/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/publication/ai12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PWBO</title>
+      <link>https://sat-group.github.io/ruben/project/pwbo/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/pwbo/</guid>
+      <description>Parallel Boolean Optimization Solver</description>
+    </item>
+    
+    <item>
+      <title>WBO</title>
+      <link>https://sat-group.github.io/ruben/project/wbo/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://sat-group.github.io/ruben/project/wbo/</guid>
+      <description>Weighted Boolean Optimization Solver</description>
     </item>
     
   </channel>

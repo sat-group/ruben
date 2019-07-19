@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication-rsses on Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/publication/index.xml</link>
-    <description>Recent content in Publication-rsses on Ruben Martins</description>
+    <title>Publications on Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/publication/</link>
+    <description>Recent content in Publications on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
     <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sat-group.github.io/ruben/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>

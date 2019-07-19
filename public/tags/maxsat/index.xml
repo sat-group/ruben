@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/tags/maxsat/index.xml</link>
-    <description>Recent content on Ruben Martins</description>
+    <title>MaxSAT on Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/tags/maxsat/</link>
+    <description>Recent content in MaxSAT on Ruben Martins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Ruben Martins</copyright>
-    <atom:link href="/tags/maxsat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sat-group.github.io/ruben/tags/maxsat/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Open-WBO</title>
@@ -15,7 +18,7 @@
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/open-wbo/</guid>
-      <description></description>
+      <description>An open source MaxSAT solver</description>
     </item>
     
     <item>
@@ -24,7 +27,7 @@
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/pwbo/</guid>
-      <description></description>
+      <description>Parallel Boolean Optimization Solver</description>
     </item>
     
     <item>
@@ -33,7 +36,7 @@
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://sat-group.github.io/ruben/project/wbo/</guid>
-      <description></description>
+      <description>Weighted Boolean Optimization Solver</description>
     </item>
     
   </channel>
