@@ -5,20 +5,12 @@
     <link>https://sat-group.github.io/ruben/publication-type/0/</link>
       <atom:link href="https://sat-group.github.io/ruben/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2019 11:33:19 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 21 Sep 2018 15:38:45 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>0</title>
       <link>https://sat-group.github.io/ruben/publication-type/0/</link>
     </image>
-    
-    <item>
-      <title>Encodings for Enumeration-Based Program Synthesis, CP 2019</title>
-      <link>https://sat-group.github.io/ruben/publication/cp19/</link>
-      <pubDate>Wed, 23 Oct 2019 11:33:19 -0400</pubDate>
-      <guid>https://sat-group.github.io/ruben/publication/cp19/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>

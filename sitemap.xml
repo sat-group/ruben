@@ -113,11 +113,6 @@
   </url>
   
   <url>
-    <loc>https://sat-group.github.io/ruben/publication-type/0/</loc>
-    <lastmod>2019-10-23T11:33:19-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sat-group.github.io/ruben/publication/cp19/</loc>
     <lastmod>2019-10-23T11:33:19-04:00</lastmod>
   </url>
@@ -155,6 +150,11 @@
   <url>
     <loc>https://sat-group.github.io/ruben/publication/vldb19/</loc>
     <lastmod>2019-05-21T15:39:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sat-group.github.io/ruben/publication-type/0/</loc>
+    <lastmod>2018-09-21T15:38:45-04:00</lastmod>
   </url>
   
   <url>
