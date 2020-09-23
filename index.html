@@ -1,67 +1,441 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.17" />
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
   <meta name="author" content="Ruben Martins">
+
+  
+  
+  
+    
+  
   <meta name="description" content="Systems Scientist">
 
-  <link rel="stylesheet" href="/ruben/css/highlight.min.css">
-  <link rel="stylesheet" href="/ruben/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/ruben/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/ruben/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  <link rel="stylesheet" href="/ruben/css/hugo-academic.css">
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
   
 
-  <link rel="alternate" href="https://sat-group.github.io/ruben/index.xml" type="application/rss+xml" title="Ruben Martins">
-  <link rel="feed" href="https://sat-group.github.io/ruben/index.xml" type="application/rss+xml" title="Ruben Martins">
 
-  <link rel="icon" type="image/png" href="/ruben/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/ruben/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://sat-group.github.io/ruben/">
+
+
+
 
   
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ruben Martins">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Ruben Martins">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Ruben Martins">
+  <meta property="og:description" content="Systems Scientist"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-10-15T15:39:38-04:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>Ruben Martins</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/ruben/">Ruben Martins</a>
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Ruben Martins</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Ruben Martins</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a href="/ruben/#about" data-target="#about">
-            
-            <span>Home</span>
-          </a>
+          <a class="nav-link " href="/#news" data-target="#news"><span>News</span></a>
         </li>
 
         
@@ -69,11 +443,36 @@
 
         
 
-        <li class="nav-item">
-          <a href="/ruben/#publications" data-target="#publications">
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
             
-            <span>Selected Publications</span>
-          </a>
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -81,11 +480,36 @@
 
         
 
-        <li class="nav-item">
-          <a href="/ruben/#projects" data-target="#projects">
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
             
-            <span>Projects</span>
-          </a>
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#students" data-target="#students"><span>Students</span></a>
         </li>
 
         
@@ -93,11 +517,36 @@
 
         
 
-        <li class="nav-item">
-          <a href="/ruben/#calendar" data-target="#calendar">
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
             
-            <span>Calendar</span>
-          </a>
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
         </li>
 
         
@@ -105,71 +554,250 @@
 
         
 
-        <li class="nav-item">
-          <a href="/ruben/#contact" data-target="#contact">
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
             
-            <span>Contact</span>
-          </a>
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
         </li>
 
         
+        
+
+      
+
         
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
 
-<span id="homepage" style="display: none"></span>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
 
 
 
   
   
-  <section id="about" class="home-section">
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
     <div class="container">
       
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <div class="col-xs-12 col-md-4">
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
     <div id="profile">
 
       
-      <div class="portrait" itemprop="image"
-           style="background-image: url('/ruben/img/me.jpg');">
-      </div>
+      
+      <img class="avatar avatar-circle" src="/author/ruben-martins/avatar_hu26af7f33abefd19625e4d2a8532d49d0_992618_270x270_fill_q90_lanczos_center.jpg" alt="Ruben Martins">
       
 
       <div class="portrait-title">
-        <h2 itemprop="name">Ruben Martins</h2>
-        <h3 itemprop="jobTitle">Systems Scientist</h3>
-        <h3 itemprop="worksFor">Carnegie Mellon University</h3>
+        <h2>Ruben Martins</h2>
+        <h3>Systems Scientist</h3>
+
+        
+        <h3>
+          
+          <span>Carnegie Mellon University</span>
+          
+        </h3>
+        
       </div>
 
-      <ul class="social-icon" aria-hidden="true">
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
         
         
         <li>
-          <a href="mailto:rubenm@cs.cmu.edu" target="_blank">
-            <i class="fa fa-envelope big-icon"></i>
+          <a href="mailto:rubenm@cs.cmu.edu" >
+            <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
         
         
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a href="https://scholar.google.com/citations?user=43ePfKMAAAAJ&amp;hl=en" target="_blank">
+          <a href="https://twitter.com/rubengmartins" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=43ePfKMAAAAJ&amp;hl=en" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
         
         
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a href="https://github.com/sat-group" target="_blank">
-            <i class="fa fa-github big-icon"></i>
+          <a href="https://github.com/sat-group" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
           </a>
         </li>
         
@@ -177,37 +805,18 @@
 
     </div>
   </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
+  <div class="col-12 col-lg-8">
 
     
+    <h1>Biography</h1>
 
-<h1 id="news">News</h1>
-
-<ul>
-<li><p>Paper accepted at <strong>PLDI&rsquo;18</strong>: <a href="/ruben/muse/pldi18.pdf">Program Synthesis using Conflict-Driven Learning</a>. Yu Feng, Ruben Martins, Osbert Bastani, Isil Dillig.</p></li>
-
-<li><p><strong><a href="http://sat.inesc-id.pt/open-wbo/">Open-WBO</a></strong> was the best MaxSAT solver in the incomplete and complete tracks for Unweighted MaxSAT at the <a href="http://mse17.cs.helsinki.fi/">MaxSAT Evaluation 2017</a>.</p></li>
-
-<li><p><strong><a href="http://sat.inesc-id.pt/open-wbo/">Open-WBO</a></strong> now available at <a href="https://github.com/sat-group/open-wbo">GitHub</a>!</p></li>
-
-<li><p>Check out our Morpheus <strong><a href="/ruben/files/morpheus.m4v">video</a></strong> at <strong>PLDI&rsquo;17</strong> on data preparation tasks!</p></li>
-
-<li><p>Paper accepted at <strong>PLDI&rsquo;17</strong>: <a href="https://www.cs.utexas.edu/~yufeng/papers/pldi17-extend.pdf">Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples</a>. Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri.</p></li>
-
-<li><p>Paper accepted at <strong>NDSS&rsquo;17</strong>: <a href="http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf">Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability</a>. Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand.</p></li>
-
-<li><p>Paper accepted at <strong>POPL&rsquo;17</strong>: <a href="/ruben/papers/popl17-sypet-extended.pdf">Component-Based Synthesis for Complex APIs</a>. Yu Feng, Ruben Martins, Yuepeng Wang, Isil Dillig, Tom Reps.</p></li>
-</ul>
-
-<h1 id="biography">Biography</h1>
-
-<p>Ruben Martins is a Systems Scientist at Carnegie Mellon University. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on using programming synthesis to automate data science related tasks such as data querying, imputation, consolidation, and tidying. Ruben received his PhD with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at University of Oxford, UK (2014-2015) and a postdoctoral researcher at UT Austin (2015-2017). He has developed several award winning constraint solvers and is the main developer of Open-WBO: an open source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions.</p>
+    <p>Ruben Martins is a Systems Scientist at Carnegie Mellon University. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on using programming synthesis to improve programmer&rsquo;s productivity and to automate data science-related tasks. Ruben received his Ph.D. with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at the University of Oxford, UK (2014-2015), and a postdoctoral researcher at UT Austin (2015-2017). He has published in top-tier venues, including, POPL, PLDI, FSE, SAT, CP, and has won a distinguished paper award at PLDI 2018 for his work on program synthesis. He has also developed several award-winning constraint solvers and is the main developer of Open-WBO: an open-source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions. Open-WBO has been used to solve many real-world problems in scheduling, planning, biology, verification, and to find an optimal seating arrangement for my wedding.</p>
 
 
     <div class="row">
 
       
-      <div class="col-sm-5">
+      <div class="col-md-5">
         <h3>Interests</h3>
         <ul class="ul-interests">
           
@@ -226,12 +835,12 @@
       
 
       
-      <div class="col-sm-7">
+      <div class="col-md-7">
         <h3>Education</h3>
         <ul class="ul-edu fa-ul">
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">PhD in Information Systems and Computer Engineering, 2013</p>
               <p class="institution">University of Lisbon</p>
@@ -239,7 +848,7 @@
           </li>
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">M.Sc. and B.Sc. in Mathematics and Applications, 2008</p>
               <p class="institution">University of Lisbon</p>
@@ -259,199 +868,404 @@
 
   
   
-  <section id="publications" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="news" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Selected Publications</h1>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>News</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    <ul>
+<li>
+<p><strong>Looking for PhD students to work on program synthesis!</strong> If you are interested, send me an email and apply to the Ph.D. program at CMU!</p>
+</li>
+<li>
+<p>Teaching 
+<a href="http://www.cs.cmu.edu/~mheule/15816-f20/" target="_blank" rel="noopener">15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability</a> with Marijn Heule. Learn how to use automated reasoning to solve applications ranging from verification of hardware and software to solving long-standing open problems in mathematics.</p>
+</li>
+<li>
+<p>Paper conditionally accepted at <strong>OOPSLA'20</strong>: Program Equivalence for Assisted Grading of Functional Programs (will be available soon). Joshua Clune, Vijay Ramamurthy, Ruben Martins, Umut Acar.</p>
+</li>
+<li>
+<p>Paper accepted at <strong>ASE'20</strong>: UnchartIt: 
+<a href="media/ase20-unchartit.pdf">An Interactive Framework for Program Recovery from Charts</a>. Daniel Ramos, Jorge Pereira, Ines Lynce, Vasco Manquinho, Ruben Martins.</p>
+</li>
+<li>
+<p>Paper accepted at <strong>VLDB'20</strong>: 
+<a href="media/vldb20-squares.pdf">SQUARES : A SQL Synthesizer Using Query Reverse Engineering</a>. Pedro Orvalho, Miguel Terra-Neves, Miguel Ventura, Ruben Martins, Vasco Manquinho.</p>
+</li>
+<li>
+<p>Paper accepted at <strong>LPAR'20</strong>: 
+<a href="media/lpar20-coloring.pdf">Coloring Unit-Distance Strips using SAT</a>. Peter Oostema, Ruben Martins, Marijn Heule.</p>
+</li>
+</ul>
+
+
+    
+
     
     
-    <p class="view-all">
-      <a href="https://sat-group.github.io/ruben/publication/">
-        More Publications
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
     
+
   </div>
-  <div class="col-xs-12 col-md-8">
-    <p>For a full list of publications see my <a href="https://scholar.google.com/citations?user=43ePfKMAAAAJ&amp;hl=en">Google Scholar Profile</a> or <a href="http://dblp.uni-trier.de/pers/hd/m/Martins:Ruben">DBLP</a>.</p>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Selected Publications</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
 
     
-    <ul class="fa-ul">
+
+    
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Program Synthesis using Conflict-Driven Learning, PLDI 2018</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/pldi18/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/muse/pldi18.pdf">
-  PDF
-</a>
+        
 
 
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://utopia-group.github.io/neo/">
-  Project
-</a>
 
 
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/pldi17/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.cs.utexas.edu/users/yufeng/papers/pldi17-extend.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/files/morpheus.m4v">
-  Video
-</a>
+  
+  
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://utopia-group.github.io/morpheus/">
-  Project
-</a>
+
+  
 
 
-</p>
-</li>
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/oopsla20/" >Program Equivalence for Assisted Grading of Functional Programs, OOPSLA 2020</a>
+    </h3>
+
+    
+    <a href="/publication/oopsla20/" class="summary-link">
+      <div class="article-style">
+        In courses that involve programming assignments, giving meaningful feedback to students is an important challenge. Human beings can …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability, NDSS 2017</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/ndss17/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.cs.utexas.edu/users/yufeng/papers/ndss17-astroid.pdf">
-  PDF
-</a>
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://utopia-group.github.io/astroid/">
-  Project
-</a>
-
-
-</p>
-</li>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Component-Based Synthesis for Complex APIs, POPL 2017</span>
-  <p>
+      <div>
+        
 
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/popl17/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/papers/popl17-sypet-extended.pdf">
-  PDF
-</a>
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://fredfeng.github.io/sypet/">
-  Project
-</a>
-
-
-</p>
-</li>
-
+  
+  <span >Joshua Clune</span>, <span >Vijay Ramamurthy</span>, <span >Ruben Martins</span>, <span >Umut Acar</span>
+      </div>
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Automatic Generation of Propagation Complete SAT Encodings, VMCAI 2016</span>
-  <p>
+    </div>
 
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/vmcai16/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.kroening.com/papers/vmcai2016.pdf">
-  PDF
-</a>
+    
+    <div class="btn-links">
+      
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/sat-group/genpce">
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/CMU-TOP/zeus" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Hunter: Next-Generation Code Reuse for Java, FSE 2016</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/fse16/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.cs.utexas.edu/~isil/hunter.pdf">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/ase20/" >UnchartIt: An Interactive Framework for Program Recovery from Charts, ASE 2020</a>
+    </h3>
+
+    
+    <a href="/publication/ase20/" class="summary-link">
+      <div class="article-style">
+        Charts are commonly used for data visualization. Generating a chart usually involves performing data transformations, including data …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Daniel Ramos</span>, <span >Jorge Pereira</span>, <span >Ines Lynce</span>, <span >Vasco Manquinho</span>, <span >Ruben Martins</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/media/ase20-unchartit.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -460,136 +1274,351 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://fredfeng.github.io/Hunter/">
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://sat.inesc-id.pt/unchartit/" target="_blank" rel="noopener">
   Project
 </a>
 
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/sat15/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1505.02405.pdf">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/lpar20/" >Coloring Unit-Distance Strips using SAT, LPAR 2020</a>
+    </h3>
+
+    
+    <a href="/publication/lpar20/" class="summary-link">
+      <div class="article-style">
+        Satisfiability (SAT) solving has become an important technology in computer-aided mathematics with various successes in number and …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Peter Oostema</span>, <span >Ruben Martins</span>, <span >Marijn Heule</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/media/lpar20-coloring.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/open-wbo/">
-  Project
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/peteroostema/SATChromaticPlane" target="_blank" rel="noopener">
+  Code
 </a>
 
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Incremental Cardinality Constraints for MaxSAT, CP 2014</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/cp14/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/papers/cp14-open-wbo.pdf">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/vldb20/" >SQUARES : A SQL Synthesizer Using Query Reverse Engineering, VLDB 2020</a>
+    </h3>
+
+    
+    <a href="/publication/vldb20/" class="summary-link">
+      <div class="article-style">
+        Nowadays, many data analysts are domain experts, but they lack programming skills. As a result, many of them can provide examples of …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Pedro Orvalho</span>, <span >Miguel Terra-Neves</span>, <span >Miguel Ventura</span>, <span >Ruben Martins</span>, <span >Vasco Manquinho</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/media/vldb20-squares.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/squares-sql/squares" target="_blank" rel="noopener">
+  Code
+</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/open-wbo/">
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://squares-sql.github.io/" target="_blank" rel="noopener">
   Project
 </a>
 
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Open-WBO: a Modular MaxSAT Solver, SAT 2014</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/sat14/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/~ruben/papers/martins-sat14.pdf">
-  PDF
-</a>
+    
+      
+        
 
 
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/open-wbo/">
-  Project
-</a>
 
 
-</p>
-</li>
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/cp19/" >Encodings for Enumeration-Based Program Synthesis, CP 2019</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Community-based Partitioning for MaxSAT Solving, SAT 2013</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://sat-group.github.io/ruben/publication/sat13/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/~ruben/papers/martins-sat13.pdf">
-  PDF
-</a>
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://sat.inesc-id.pt/open-wbo/">
-  Project
-</a>
-
-
-</p>
-</li>
 
       
-    </ul>
+      <div>
+        
+
+  
+  <span >Pedro Orvalho</span>, <span >Miguel Terra-Neves</span>, <span >Miguel Ventura</span>, <span >Ruben Martins</span>, <span >Vasco Manquinho</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    
+    
+
+      
+      
+        
+      
+
+      
+
+      <div class="see-all">
+        <a href="/publication/">
+          See all publications
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
     
 
   </div>
@@ -600,207 +1629,143 @@
 
   
   
-  <section id="projects" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="students" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
     
-  </div>
-  <div class="col-xs-12 col-md-8">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Students</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    <p><strong>PhD Students:</strong></p>
+<ul>
+<li>Daniel Ramos (co-advised with Claire Le Goues and Vasco Manquinho)</li>
+</ul>
+<p><strong>MSc Students:</strong></p>
+<ul>
+<li>Margarida Ferreira</li>
+<li>Ricardo Brancas</li>
+</ul>
+<p><strong>Undergraduate Students:</strong></p>
+<ul>
+<li>Joshua Clune</li>
+</ul>
+<p><strong>Alumni:</strong></p>
+<p>I am always happy to work with undergraduate students at CMU for either 
+<a href="https://csd.cmu.edu/cs-undergraduate-research-options" target="_blank" rel="noopener">SCS Independent Studies</a> or during the Summer or the 
+<a href="https://www.cmu.edu/scs/isr/reuse/" target="_blank" rel="noopener">REUSE program</a>.</p>
+<p>Previous students that I mentored at CMU:</p>
+<ul>
+<li>Harutyun Rehanyan (REUSE, Summer 2020)</li>
+<li>Aidan Yang (REUSE, Summer 2020)</li>
+<li>Audrey Seo (REUSE, Summer 2019)</li>
+<li>Aaron Meyers (Internship, Summer 2019)</li>
+<li>Pedro Miguel Orvalho (MSc, Spring 2019)</li>
+<li>Rodrigo Bernado (MSc, Spring 2019)</li>
+<li>Yinglan Chen (SCS Independent Studies, Spring 2019)</li>
+<li>Clara Sellke (SCS Independent Studies, Fall 2018)</li>
+<li>Naveen Pai (SCS Independent Studies, Fall 2018)</li>
+<li>David Chen (SCS Independent Studies, Fall 2018)</li>
+<li>Zachary Susag (REUSE, Summer 2018)</li>
+<li>Avital Rabinovitch (Internship, Summer 2018)</li>
+<li>Kaige Liu (SCS Independent Studies, Spring 2018)</li>
+<li>Anlun Xu (SCS Independent Studies, Spring 2018)</li>
+<li>Tianlei Pan (SCS Independent Studies, Spring 2018)</li>
+<li>Mayank Jai (SCS Independent Studies, Spring 2018)</li>
+</ul>
+<p>Contact me if you are an undergraduate student that want to work on program verification or program verification for either SCS Independent studies or for a summer internship.</p>
+
+
     
 
-    <div class="project-toolbar">
-      <div id="filters">
-        <div class="btn-toolbar">
-          <div class="btn-group">
-          
-            <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
-          
-            <a href="#" data-filter=".MaxSAT" class="btn btn-primary btn-large">MaxSAT</a>
-          
-            <a href="#" data-filter=".synthesis" class="btn btn-primary btn-large">Synthesis</a>
-          
-            <a href="#" data-filter=".security" class="btn btn-primary btn-large">Security</a>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-
     
-
-    <div id="container-projects" class="row isotope">
-
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item synthesis">
-        <div class="card">
-          
-          <a href="https://fredfeng.github.io/sypet/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/morpheus.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://fredfeng.github.io/sypet/" target="_blank">Morpheus</a></h4>
-            <div class="card-desription">
-              <p>Data Preparation Tasks</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item security synthesis">
-        <div class="card">
-          
-          <a href="https://utopia-group.github.io/astroid/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/astroid.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://utopia-group.github.io/astroid/" target="_blank">Astroid</a></h4>
-            <div class="card-desription">
-              <p>Synthesis of Android Malware Signatures</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item synthesis ">
-        <div class="card">
-          
-          <a href="https://fredfeng.github.io/sypet/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/sypet.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://fredfeng.github.io/sypet/" target="_blank">SyPet</a></h4>
-            <div class="card-desription">
-              <p>Component-Based Synthesis for Java APIs</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item synthesis">
-        <div class="card">
-          
-          <a href="https://fredfeng.github.io/Hunter/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/hunter.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://fredfeng.github.io/Hunter/" target="_blank">Hunter</a></h4>
-            <div class="card-desription">
-              <p>Next-generation code reuse tool for Java</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item MaxSAT">
-        <div class="card">
-          
-          <a href="http://sat.inesc-id.pt/open-wbo/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/open-wbo.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://sat.inesc-id.pt/open-wbo/" target="_blank">Open-WBO</a></h4>
-            <div class="card-desription">
-              <p>An open source MaxSAT solver</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item MaxSAT">
-        <div class="card">
-          
-          <a href="http://sat.inesc-id.pt/pwbo/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/pwbo.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://sat.inesc-id.pt/pwbo/" target="_blank">PWBO</a></h4>
-            <div class="card-desription">
-              <p>Parallel Boolean Optimization Solver</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item MaxSAT">
-        <div class="card">
-          
-          <a href="http://sat.inesc-id.pt/wbo/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/ruben/img/wbo.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://sat.inesc-id.pt/wbo/" target="_blank">WBO</a></h4>
-            <div class="card-desription">
-              <p>Weighted Boolean Optimization Solver</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-
+    
     
 
   </div>
@@ -811,18 +1776,118 @@
 
   
   
-  <section id="calendar" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Calendar</h1>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
     
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ruben.g.martins%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Talks</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    <p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/N7IHd0UGu-o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<br></br></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/fV6iv3GLyuY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+
+    
+
+    
+    
+    
 
   </div>
 </div>
@@ -832,48 +1897,97 @@
 
   
   
-  <section id="contact" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
     <div class="container">
       
 
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Contact</h1>
+
+
+<div class="row contact-widget ">
+  
     
-  </div>
-  <div class="col-xs-12 col-md-8">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Contact</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+    
+
     
 
     <ul class="fa-ul">
 
       
       <li>
-        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span><a href="mailto:rubenm@cs.cmu.edu">rubenm@cs.cmu.edu</a></span>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:rubenm@cs.cmu.edu">rubenm@cs.cmu.edu</a></span>
       </li>
       
 
       
 
       
-
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">Carnegie Mellon University, Gates Hillman Complex, GHC 7.129, 5000 Forbes Avenue , Pittsburgh, PA 15213</span>
+        </li>
       
 
       
 
       
-      <li>
-        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span>Carnegie Mellon University, Gates Hillman Complex, GHC 7.129, 5000 Forbes Avenue Pittsburgh, PA 15213</span>
-      </li>
+
       
 
+      
       
 
     </ul>
+
+    
 
   </div>
 </div>
@@ -883,45 +1997,196 @@
 
 
 
-<footer class="site-footer">
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
   <div class="container">
-    <p class="powered-by">
+    <footer class="site-footer">
+  
 
-      &copy; 2018 Ruben Martins &middot; 
+  <p class="powered-by">
+    
+  </p>
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  
+  
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
 
-    </p>
-  </div>
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/ruben/js/jquery-1.12.3.min.js"></script>
-    <script src="/ruben/js/bootstrap.min.js"></script>
-    <script src="/ruben/js/isotope.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-    <script src="/ruben/js/hugo-academic.js"></script>
-    
+  </div>
+  
 
-    
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-    
-    
-
-  </body>
+</body>
 </html>
-

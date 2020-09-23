@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osbert Bastani | Ruben Martins</title>
+    <link>/author/osbert-bastani/</link>
+      <atom:link href="/author/osbert-bastani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Osbert Bastani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 21 Sep 2018 15:38:45 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Osbert Bastani</title>
+      <link>/author/osbert-bastani/</link>
+    </image>
+    
+    <item>
+      <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>
+      <link>/publication/pldi18/</link>
+      <pubDate>Fri, 21 Sep 2018 15:38:45 -0400</pubDate>
+      <guid>/publication/pldi18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability, NDSS 2017</title>
+      <link>/publication/ndss17/</link>
+      <pubDate>Tue, 21 Nov 2017 15:38:36 -0400</pubDate>
+      <guid>/publication/ndss17/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
