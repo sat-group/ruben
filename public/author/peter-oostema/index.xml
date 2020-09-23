@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peter Oostema | Ruben Martins</title>
-    <link>/author/peter-oostema/</link>
-      <atom:link href="/author/peter-oostema/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sat-group.github.io/ruben/author/peter-oostema/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/peter-oostema/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Oostema</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2020 15:39:32 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Oostema</title>
-      <link>/author/peter-oostema/</link>
+      <link>https://sat-group.github.io/ruben/author/peter-oostema/</link>
     </image>
     
     <item>
       <title>Coloring Unit-Distance Strips using SAT, LPAR 2020</title>
-      <link>/publication/lpar20/</link>
+      <link>https://sat-group.github.io/ruben/publication/lpar20/</link>
       <pubDate>Mon, 21 Sep 2020 15:39:32 -0400</pubDate>
-      <guid>/publication/lpar20/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/lpar20/</guid>
       <description></description>
     </item>
     

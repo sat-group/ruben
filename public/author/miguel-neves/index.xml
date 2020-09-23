@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miguel Neves | Ruben Martins</title>
-    <link>/author/miguel-neves/</link>
-      <atom:link href="/author/miguel-neves/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sat-group.github.io/ruben/author/miguel-neves/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/miguel-neves/index.xml" rel="self" type="application/rss+xml" />
     <description>Miguel Neves</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2015 15:38:58 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Miguel Neves</title>
-      <link>/author/miguel-neves/</link>
+      <link>https://sat-group.github.io/ruben/author/miguel-neves/</link>
     </image>
     
     <item>
       <title>Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</title>
-      <link>/publication/sat15/</link>
+      <link>https://sat-group.github.io/ruben/publication/sat15/</link>
       <pubDate>Mon, 21 Sep 2015 15:38:58 -0400</pubDate>
-      <guid>/publication/sat15/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/sat15/</guid>
       <description></description>
     </item>
     

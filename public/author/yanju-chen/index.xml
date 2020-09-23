@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yanju Chen | Ruben Martins</title>
-    <link>/author/yanju-chen/</link>
-      <atom:link href="/author/yanju-chen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sat-group.github.io/ruben/author/yanju-chen/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/yanju-chen/index.xml" rel="self" type="application/rss+xml" />
     <description>Yanju Chen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2019 15:39:20 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yanju Chen</title>
-      <link>/author/yanju-chen/</link>
+      <link>https://sat-group.github.io/ruben/author/yanju-chen/</link>
     </image>
     
     <item>
       <title>Maximal Multi-layer Specification Synthesis, FSE 2019</title>
-      <link>/publication/fse19/</link>
+      <link>https://sat-group.github.io/ruben/publication/fse19/</link>
       <pubDate>Wed, 21 Aug 2019 15:39:20 -0400</pubDate>
-      <guid>/publication/fse19/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/fse19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trinity: An Extensible Synthesis Framework for Data Science, VLDB 2019</title>
-      <link>/publication/vldb19/</link>
+      <link>https://sat-group.github.io/ruben/publication/vldb19/</link>
       <pubDate>Tue, 21 May 2019 15:39:29 -0400</pubDate>
-      <guid>/publication/vldb19/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/vldb19/</guid>
       <description></description>
     </item>
     

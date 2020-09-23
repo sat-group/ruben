@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Kroening | Ruben Martins</title>
-    <link>/author/daniel-kroening/</link>
-      <atom:link href="/author/daniel-kroening/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sat-group.github.io/ruben/author/daniel-kroening/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/daniel-kroening/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Kroening</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Sep 2016 15:39:02 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Daniel Kroening</title>
-      <link>/author/daniel-kroening/</link>
+      <link>https://sat-group.github.io/ruben/author/daniel-kroening/</link>
     </image>
     
     <item>
       <title>Automatic Generation of Propagation Complete SAT Encodings, VMCAI 2016</title>
-      <link>/publication/vmcai16/</link>
+      <link>https://sat-group.github.io/ruben/publication/vmcai16/</link>
       <pubDate>Wed, 21 Sep 2016 15:39:02 -0400</pubDate>
-      <guid>/publication/vmcai16/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/vmcai16/</guid>
       <description></description>
     </item>
     
