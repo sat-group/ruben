@@ -49,4 +49,4 @@ Previous students that I mentored at CMU:
 * Tianlei Pan (SCS Independent Studies, Spring 2018)
 * Mayank Jai (SCS Independent Studies, Spring 2018)
 
-Contact me if you are an undergraduate student that want to work on program verification or program verification for either SCS Independent studies or for a summer internship.
+Contact me if you are an undergraduate student that wants to work on program verification or program synthesis for either SCS Independent studies or a summer internship.
