@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Ruben Martins</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 May 2019 15:39:29 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Trinity: An Extensible Synthesis Framework for Data Science, VLDB 2019</title>
+      <link>/publication/vldb19/</link>
+      <pubDate>Tue, 21 May 2019 15:39:29 -0400</pubDate>
+      <guid>/publication/vldb19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel Search for Maximum Satisfiability, AI Comm. 2012</title>
+      <link>/publication/ai12/</link>
+      <pubDate>Sun, 01 Jul 2012 15:25:57 -0400</pubDate>
+      <guid>/publication/ai12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
