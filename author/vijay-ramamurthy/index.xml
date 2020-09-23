@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vijay Ramamurthy | Ruben Martins</title>
-    <link>/author/vijay-ramamurthy/</link>
-      <atom:link href="/author/vijay-ramamurthy/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sat-group.github.io/ruben/author/vijay-ramamurthy/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/vijay-ramamurthy/index.xml" rel="self" type="application/rss+xml" />
     <description>Vijay Ramamurthy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Oct 2020 15:39:38 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vijay Ramamurthy</title>
-      <link>/author/vijay-ramamurthy/</link>
+      <link>https://sat-group.github.io/ruben/author/vijay-ramamurthy/</link>
     </image>
     
     <item>
       <title>Program Equivalence for Assisted Grading of Functional Programs, OOPSLA 2020</title>
-      <link>/publication/oopsla20/</link>
+      <link>https://sat-group.github.io/ruben/publication/oopsla20/</link>
       <pubDate>Thu, 15 Oct 2020 15:39:38 -0400</pubDate>
-      <guid>/publication/oopsla20/</guid>
+      <guid>https://sat-group.github.io/ruben/publication/oopsla20/</guid>
       <description></description>
     </item>
     
