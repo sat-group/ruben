@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vasco Manquinho | Ruben Martins</title>
+    <link>/author/vasco-manquinho/</link>
+      <atom:link href="/author/vasco-manquinho/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vasco Manquinho</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Sep 2020 15:40:08 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Vasco Manquinho</title>
+      <link>/author/vasco-manquinho/</link>
+    </image>
+    
+    <item>
+      <title>UnchartIt: An Interactive Framework for Program Recovery from Charts, ASE 2020</title>
+      <link>/publication/ase20/</link>
+      <pubDate>Tue, 22 Sep 2020 15:40:08 -0400</pubDate>
+      <guid>/publication/ase20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQUARES : A SQL Synthesizer Using Query Reverse Engineering, VLDB 2020</title>
+      <link>/publication/vldb20/</link>
+      <pubDate>Tue, 01 Sep 2020 15:39:58 -0400</pubDate>
+      <guid>/publication/vldb20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encodings for Enumeration-Based Program Synthesis, CP 2019</title>
+      <link>/publication/cp19/</link>
+      <pubDate>Wed, 23 Oct 2019 11:33:19 -0400</pubDate>
+      <guid>/publication/cp19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</title>
+      <link>/publication/sat15/</link>
+      <pubDate>Mon, 21 Sep 2015 15:38:58 -0400</pubDate>
+      <guid>/publication/sat15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-WBO: a Modular MaxSAT Solver, SAT 2014</title>
+      <link>/publication/sat14/</link>
+      <pubDate>Sun, 21 Sep 2014 15:38:55 -0400</pubDate>
+      <guid>/publication/sat14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Cardinality Constraints for MaxSAT, CP 2014</title>
+      <link>/publication/cp14/</link>
+      <pubDate>Sun, 21 Sep 2014 15:38:26 -0400</pubDate>
+      <guid>/publication/cp14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community-based Partitioning for MaxSAT Solving, SAT 2013</title>
+      <link>/publication/sat13/</link>
+      <pubDate>Sat, 21 Sep 2013 15:38:53 -0400</pubDate>
+      <guid>/publication/sat13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel Search for Maximum Satisfiability, AI Comm. 2012</title>
+      <link>/publication/ai12/</link>
+      <pubDate>Sun, 01 Jul 2012 15:25:57 -0400</pubDate>
+      <guid>/publication/ai12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

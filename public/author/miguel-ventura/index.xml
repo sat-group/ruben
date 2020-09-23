@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miguel Ventura | Ruben Martins</title>
+    <link>/author/miguel-ventura/</link>
+      <atom:link href="/author/miguel-ventura/index.xml" rel="self" type="application/rss+xml" />
+    <description>Miguel Ventura</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 15:39:58 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Miguel Ventura</title>
+      <link>/author/miguel-ventura/</link>
+    </image>
+    
+    <item>
+      <title>SQUARES : A SQL Synthesizer Using Query Reverse Engineering, VLDB 2020</title>
+      <link>/publication/vldb20/</link>
+      <pubDate>Tue, 01 Sep 2020 15:39:58 -0400</pubDate>
+      <guid>/publication/vldb20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encodings for Enumeration-Based Program Synthesis, CP 2019</title>
+      <link>/publication/cp19/</link>
+      <pubDate>Wed, 23 Oct 2019 11:33:19 -0400</pubDate>
+      <guid>/publication/cp19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
