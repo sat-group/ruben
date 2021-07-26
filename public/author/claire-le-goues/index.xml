@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Ramos | Ruben Martins</title>
-    <link>https://sat-group.github.io/ruben/author/daniel-ramos/</link>
-      <atom:link href="https://sat-group.github.io/ruben/author/daniel-ramos/index.xml" rel="self" type="application/rss+xml" />
-    <description>Daniel Ramos</description>
+    <title>Claire Le Goues | Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/author/claire-le-goues/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/claire-le-goues/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claire Le Goues</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Mar 2021 17:16:55 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Daniel Ramos</title>
-      <link>https://sat-group.github.io/ruben/author/daniel-ramos/</link>
+      <title>Claire Le Goues</title>
+      <link>https://sat-group.github.io/ruben/author/claire-le-goues/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://sat-group.github.io/ruben/publication/icse21/</link>
       <pubDate>Fri, 26 Mar 2021 17:16:55 -0400</pubDate>
       <guid>https://sat-group.github.io/ruben/publication/icse21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UnchartIt: An Interactive Framework for Program Recovery from Charts, ASE 2020</title>
-      <link>https://sat-group.github.io/ruben/publication/ase20/</link>
-      <pubDate>Tue, 22 Sep 2020 15:40:08 -0400</pubDate>
-      <guid>https://sat-group.github.io/ruben/publication/ase20/</guid>
       <description></description>
     </item>
     
