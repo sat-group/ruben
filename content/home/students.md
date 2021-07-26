@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 69
 
 title: Students
 subtitle:
@@ -19,25 +19,22 @@ type: book
 
 **PhD Students:**
 * Daniel Ramos (co-advised with Claire Le Goues and Vasco Manquinho)
-
-**MSc Students:**
-* Margarida Ferreira
-* Ricardo Brancas 
-
-**Undergraduate Students:**
-* Joshua Clune 
+* Margarida Ferreira (co-advised with Ines Lynce)
+* Ricardo Brancas (co-advised with Vasco Manquinho)
 
 **Alumni:**
 
 I am always happy to work with undergraduate students at CMU for either [SCS Independent Studies](https://csd.cmu.edu/cs-undergraduate-research-options) or during the Summer or the [REUSE program](https://www.cmu.edu/scs/isr/reuse/). 
 
 Previous students that I mentored at CMU:
+* Joshua Clune (Research Project, 2019-2020)
 * Harutyun Rehanyan (REUSE, Summer 2020)
 * Aidan Yang (REUSE, Summer 2020)
 * Audrey Seo (REUSE, Summer 2019)
+* Daniel Gibert Llaurado (Visiting PhD Student, Fall 2019)
 * Aaron Meyers (Internship, Summer 2019)
-* Pedro Miguel Orvalho (MSc, Spring 2019)
-* Rodrigo Bernado (MSc, Spring 2019)
+* Pedro Miguel Orvalho (Visiting MSc student., Spring 2019)
+* Rodrigo Bernado (Visiting MSc Student, Spring 2019)
 * Yinglan Chen (SCS Independent Studies, Spring 2019)
 * Clara Sellke (SCS Independent Studies, Fall 2018)
 * Naveen Pai (SCS Independent Studies, Fall 2018)	
