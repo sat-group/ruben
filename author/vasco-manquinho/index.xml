@@ -5,12 +5,20 @@
     <link>https://sat-group.github.io/ruben/author/vasco-manquinho/</link>
       <atom:link href="https://sat-group.github.io/ruben/author/vasco-manquinho/index.xml" rel="self" type="application/rss+xml" />
     <description>Vasco Manquinho</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Mar 2021 17:16:55 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 26 Jul 2021 17:16:55 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vasco Manquinho</title>
       <link>https://sat-group.github.io/ruben/author/vasco-manquinho/</link>
     </image>
+    
+    <item>
+      <title>AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</title>
+      <link>https://sat-group.github.io/ruben/publication/fse21/</link>
+      <pubDate>Mon, 26 Jul 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/fse21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SOAR: A Synthesis Approachfor Data Science API Refactoring</title>
