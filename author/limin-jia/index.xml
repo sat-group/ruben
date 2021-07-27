@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Limin Jia | Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/author/limin-jia/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/limin-jia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Limin Jia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 26 Jun 2021 17:16:55 -0400</lastBuildDate>
+    <image>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Limin Jia</title>
+      <link>https://sat-group.github.io/ruben/author/limin-jia/</link>
+    </image>
+    
+    <item>
+      <title>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi21/</link>
+      <pubDate>Sat, 26 Jun 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/pldi21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

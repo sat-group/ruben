@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amit Vasudevan | Ruben Martins</title>
+    <link>https://sat-group.github.io/ruben/author/amit-vasudevan/</link>
+      <atom:link href="https://sat-group.github.io/ruben/author/amit-vasudevan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amit Vasudevan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Jan 2021 17:16:55 -0400</lastBuildDate>
+    <image>
+      <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Amit Vasudevan</title>
+      <link>https://sat-group.github.io/ruben/author/amit-vasudevan/</link>
+    </image>
+    
+    <item>
+      <title>Formal Verification of a Mixed-Trust Synchronization Protocol</title>
+      <link>https://sat-group.github.io/ruben/publication/rtns21/</link>
+      <pubDate>Tue, 26 Jan 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/rtns21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
