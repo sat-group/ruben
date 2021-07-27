@@ -38,7 +38,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: media/oopsla20-zeus.pdf
 url_code: https://github.com/CMU-TOP/zeus
 url_dataset:
 url_poster:
