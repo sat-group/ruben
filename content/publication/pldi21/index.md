@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis"
+title: "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021"
 subtitle: ""
 summary: ""
-authors: [Yoshiki Takashima, Ruben Martins, Limin Jia, Corina S Pasareanu.]
+authors: [Yoshiki Takashima, Ruben Martins, Limin Jia, Corina S Pasareanu]
 tags: []
 categories: []
 date: 2021-06-26T17:16:55-04:00
@@ -14,10 +14,29 @@ draft: false
 
 publication_types: ["1"]
 
-abstract: 
+abstract: "Rust's type system ensures the safety of Rust programs; however,
+programmers can side-step some of the strict typing
+rules by using the unsafe keyword. A common use of unsafe
+Rust is by libraries. Bugs in these libraries undermine the
+safety of the entire Rust program. Therefore, it is crucial to
+thoroughly test library APIs to rule out bugs. Unfortunately,
+such testing relies on programmers to manually construct
+test cases, which is an inefficient and ineffective process.
+The goal of this paper is to develop a methodology for
+automatically generating Rust programs to effectively test
+Rust library APIs. The main challenge is to synthesize welltyped
+Rust programs to account for proper chaining of API
+calls and Rust’s ownership type system and polymorphic
+types. We develop a program synthesis technique for Rust
+library API testing, which relies on a novel logical encoding
+of typing constraints from Rust's ownership type system.
+We implement SyRust, a testing framework for Rust libraries
+that automatically synthesizes semantically valid test cases.
+Our experiments on 30 popular open-source Rust libraries
+found 4 new bugs."
 
-url_pdf: 
-url_code:
+url_pdf: media/pldi21-syrust.pdf
+url_code: https://github.com/forge-lab/SyRust/tree/pldi2021-artifact
 url_dataset:
 url_poster:
 url_project:

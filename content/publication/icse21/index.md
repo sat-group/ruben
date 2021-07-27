@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "SOAR: A Synthesis Approachfor Data Science API Refactoring"
+title: "SOAR: A Synthesis Approachfor Data Science API Refactoring, ICSE 2021"
 subtitle: ""
 summary: ""
 authors: [Ansong Ni, Daniel Ramos, Aidan Yang, Inês Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues]
@@ -24,7 +24,7 @@ SOAR also uses the interpreter's error messages when running refactored code to 
 Our empirical evaluation shows that SOAR can successfully refactor 80% of our benchmarks corresponding to deep learning models with up to 44 layers with an average run time of 97.23 seconds, and 9% of the data wrangling benchmarks with an average run time of 17.31 seconds."
 
 url_pdf: media/icse21-soar.pdf
-url_code:
+url_code: https://github.com/danieltrt/SOAR/
 url_dataset:
 url_poster:
 url_project:

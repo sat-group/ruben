@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Rust&#39;s type system ensures the safety of Rust programs; however, programmers can side-step some of the strict typing rules by using the unsafe keyword. A common use of unsafe Rust is by libraries. Bugs in these libraries undermine the safety of the entire Rust program. Therefore, it is crucial to thoroughly test library APIs to rule out bugs. Unfortunately, such testing relies on programmers to manually construct test cases, which is an inefficient and ineffective process. The goal of this paper is to develop a methodology for automatically generating Rust programs to effectively test Rust library APIs. The main challenge is to synthesize welltyped Rust programs to account for proper chaining of API calls and Rust’s ownership type system and polymorphic types. We develop a program synthesis technique for Rust library API testing, which relies on a novel logical encoding of typing constraints from Rust&#39;s ownership type system. We implement SyRust, a testing framework for Rust libraries that automatically synthesizes semantically valid test cases. Our experiments on 30 popular open-source Rust libraries found 4 new bugs.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://sat-group.github.io/ruben/publication/pldi21/">
@@ -272,8 +272,8 @@
   
   <meta property="og:site_name" content="Ruben Martins">
   <meta property="og:url" content="https://sat-group.github.io/ruben/publication/pldi21/">
-  <meta property="og:title" content="SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis | Ruben Martins">
-  <meta property="og:description" content=""><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021 | Ruben Martins">
+  <meta property="og:description" content="Rust&#39;s type system ensures the safety of Rust programs; however, programmers can side-step some of the strict typing rules by using the unsafe keyword. A common use of unsafe Rust is by libraries. Bugs in these libraries undermine the safety of the entire Rust program. Therefore, it is crucial to thoroughly test library APIs to rule out bugs. Unfortunately, such testing relies on programmers to manually construct test cases, which is an inefficient and ineffective process. The goal of this paper is to develop a methodology for automatically generating Rust programs to effectively test Rust library APIs. The main challenge is to synthesize welltyped Rust programs to account for proper chaining of API calls and Rust’s ownership type system and polymorphic types. We develop a program synthesis technique for Rust library API testing, which relies on a novel logical encoding of typing constraints from Rust&#39;s ownership type system. We implement SyRust, a testing framework for Rust libraries that automatically synthesizes semantically valid test cases. Our experiments on 30 popular open-source Rust libraries found 4 new bugs."><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -303,7 +303,7 @@
     "@type": "WebPage",
     "@id": "https://sat-group.github.io/ruben/publication/pldi21/"
   },
-  "headline": "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis",
+  "headline": "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021",
   
   "datePublished": "2021-06-26T17:16:55-04:00",
   "dateModified": "2021-07-26T17:16:55-04:00",
@@ -321,7 +321,7 @@
       "url": "https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Rust's type system ensures the safety of Rust programs; however, programmers can side-step some of the strict typing rules by using the unsafe keyword. A common use of unsafe Rust is by libraries. Bugs in these libraries undermine the safety of the entire Rust program. Therefore, it is crucial to thoroughly test library APIs to rule out bugs. Unfortunately, such testing relies on programmers to manually construct test cases, which is an inefficient and ineffective process. The goal of this paper is to develop a methodology for automatically generating Rust programs to effectively test Rust library APIs. The main challenge is to synthesize welltyped Rust programs to account for proper chaining of API calls and Rust’s ownership type system and polymorphic types. We develop a program synthesis technique for Rust library API testing, which relies on a novel logical encoding of typing constraints from Rust's ownership type system. We implement SyRust, a testing framework for Rust libraries that automatically synthesizes semantically valid test cases. Our experiments on 30 popular open-source Rust libraries found 4 new bugs."
 }
 </script>
 
@@ -339,7 +339,7 @@
 
 
 
-  <title>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis | Ruben Martins</title>
+  <title>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021 | Ruben Martins</title>
 
 </head>
 
@@ -716,7 +716,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</h1>
+  <h1>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021</h1>
 
   
 
@@ -734,7 +734,7 @@
     
 
   
-  <span >Yoshiki Takashima</span>, <span >Ruben Martins</span>, <span >Limin Jia</span>, <span >Corina S Pasareanu.</span>
+  <span >Yoshiki Takashima</span>, <span >Ruben Martins</span>, <span >Limin Jia</span>, <span >Corina S Pasareanu</span>
   </div>
   
   
@@ -776,6 +776,53 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/ruben/media/pldi21-syrust.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/forge-lab/SyRust/tree/pldi2021-artifact" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -784,6 +831,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Rust&rsquo;s type system ensures the safety of Rust programs; however, programmers can side-step some of the strict typing rules by using the unsafe keyword. A common use of unsafe Rust is by libraries. Bugs in these libraries undermine the safety of the entire Rust program. Therefore, it is crucial to thoroughly test library APIs to rule out bugs. Unfortunately, such testing relies on programmers to manually construct test cases, which is an inefficient and ineffective process. The goal of this paper is to develop a methodology for automatically generating Rust programs to effectively test Rust library APIs. The main challenge is to synthesize welltyped Rust programs to account for proper chaining of API calls and Rust’s ownership type system and polymorphic types. We develop a program synthesis technique for Rust library API testing, which relies on a novel logical encoding of typing constraints from Rust&rsquo;s ownership type system. We implement SyRust, a testing framework for Rust libraries that automatically synthesizes semantically valid test cases. Our experiments on 30 popular open-source Rust libraries found 4 new bugs.</p>
     
 
     
@@ -833,7 +883,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;text=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;text=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -846,7 +896,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/pldi21/&amp;t=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/pldi21/&amp;t=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -859,7 +909,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis&amp;body=https://sat-group.github.io/ruben/publication/pldi21/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021&amp;body=https://sat-group.github.io/ruben/publication/pldi21/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -872,7 +922,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;title=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;title=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -885,7 +935,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis%20https://sat-group.github.io/ruben/publication/pldi21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021%20https://sat-group.github.io/ruben/publication/pldi21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -898,7 +948,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;title=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/pldi21/&amp;title=SyRust:%20Automatic%20Testing%20of%20Rust%20Libraries%20with%20Semantic-Aware%20Program%20Synthesis,%20PLDI%202021" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -958,6 +1008,8 @@
 
 
 
+  
+
 
   
 
@@ -978,15 +1030,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</a></li>
+      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications, FSE 2021</a></li>
       
-      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring</a></li>
+      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring, ICSE 2021</a></li>
       
-      <li><a href="/ruben/publication/ndss21/">Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All</a></li>
+      <li><a href="/ruben/publication/tacas21/">FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021</a></li>
       
-      <li><a href="/ruben/publication/tacas21/">FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</a></li>
+      <li><a href="/ruben/publication/ndss21/">Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021</a></li>
       
-      <li><a href="/ruben/publication/rtns21/">Formal Verification of a Mixed-Trust Synchronization Protocol</a></li>
+      <li><a href="/ruben/publication/rtns21/">Formal Verification of a Mixed-Trust Synchronization Protocol, RTNS 2021</a></li>
       
     </ul>
   </div>

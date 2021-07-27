@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All"
+title: "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021"
 subtitle: ""
 summary: ""
 authors: [Travis Hance, Marijn Heule, Ruben Martins, Bryan Parno]
@@ -14,10 +14,32 @@ draft: false
 
 publication_types: ["1"]
 
-abstract: 
+abstract: "Today’s distributed systems are increasingly complex, leading
+to subtle bugs that are difficult to detect with standard testing
+methods. Formal verification can provably rule out such bugs,
+but historically it has been excessively labor intensive. For
+distributed systems, recent work shows that, given a correct
+inductive invariant, nearly all other proof work can be automated;
+however, the construction of such invariants is still a
+difficult manual task.
+In this paper, we demonstrate a new methodology for automating
+the construction of inductive invariants, given as
+input a (formal) description of the distributed system and a
+desired safety condition. Our system performs an exhaustive
+search within a given space of candidate invariants in order to
+find and verify inductive invariants which suffice to prove the
+safety condition. Central to our ability to search efficiently is
+our algorithm’s ability to learn from counterexamples whenever
+a candidate fails to be invariant, allowing us to check
+the remaining candidates more efficiently. We hypothesize
+that many distributed systems, even complex ones, may have
+concise invariants that make this approach practical, and in
+support of this, we show that our system is able to identify
+and verify inductive invariants for the Paxos protocol, which
+proved too complex for previous work."
 
-url_pdf: 
-url_code:
+url_pdf: media/ndss21-swiss.pdf
+url_code: https://github.com/secure-foundations/SWISS
 url_dataset:
 url_poster:
 url_project:

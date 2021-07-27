@@ -18,8 +18,8 @@ type: book
 ---
 
 **PhD Students:**
-* Daniel Ramos (co-advised with Claire Le Goues and Vasco Manquinho)
-* Margarida Ferreira (co-advised with Ines Lynce)
+* [Daniel Ramos](http://sat.inesc-id.pt/~drr/) (co-advised with Claire Le Goues and Vasco Manquinho)
+* [Margarida Ferreira](https://marghrid.github.io/) (co-advised with Ines Lynce)
 * Ricardo Brancas (co-advised with Vasco Manquinho)
 
 **Alumni:**

@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Today’s distributed systems are increasingly complex, leading to subtle bugs that are difficult to detect with standard testing methods. Formal verification can provably rule out such bugs, but historically it has been excessively labor intensive. For distributed systems, recent work shows that, given a correct inductive invariant, nearly all other proof work can be automated; however, the construction of such invariants is still a difficult manual task. In this paper, we demonstrate a new methodology for automating the construction of inductive invariants, given as input a (formal) description of the distributed system and a desired safety condition. Our system performs an exhaustive search within a given space of candidate invariants in order to find and verify inductive invariants which suffice to prove the safety condition. Central to our ability to search efficiently is our algorithm’s ability to learn from counterexamples whenever a candidate fails to be invariant, allowing us to check the remaining candidates more efficiently. We hypothesize that many distributed systems, even complex ones, may have concise invariants that make this approach practical, and in support of this, we show that our system is able to identify and verify inductive invariants for the Paxos protocol, which proved too complex for previous work.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://sat-group.github.io/ruben/publication/ndss21/">
@@ -272,8 +272,8 @@
   
   <meta property="og:site_name" content="Ruben Martins">
   <meta property="og:url" content="https://sat-group.github.io/ruben/publication/ndss21/">
-  <meta property="og:title" content="Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All | Ruben Martins">
-  <meta property="og:description" content=""><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021 | Ruben Martins">
+  <meta property="og:description" content="Today’s distributed systems are increasingly complex, leading to subtle bugs that are difficult to detect with standard testing methods. Formal verification can provably rule out such bugs, but historically it has been excessively labor intensive. For distributed systems, recent work shows that, given a correct inductive invariant, nearly all other proof work can be automated; however, the construction of such invariants is still a difficult manual task. In this paper, we demonstrate a new methodology for automating the construction of inductive invariants, given as input a (formal) description of the distributed system and a desired safety condition. Our system performs an exhaustive search within a given space of candidate invariants in order to find and verify inductive invariants which suffice to prove the safety condition. Central to our ability to search efficiently is our algorithm’s ability to learn from counterexamples whenever a candidate fails to be invariant, allowing us to check the remaining candidates more efficiently. We hypothesize that many distributed systems, even complex ones, may have concise invariants that make this approach practical, and in support of this, we show that our system is able to identify and verify inductive invariants for the Paxos protocol, which proved too complex for previous work."><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -303,7 +303,7 @@
     "@type": "WebPage",
     "@id": "https://sat-group.github.io/ruben/publication/ndss21/"
   },
-  "headline": "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All",
+  "headline": "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021",
   
   "datePublished": "2021-02-26T17:16:55-04:00",
   "dateModified": "2021-07-26T17:16:55-04:00",
@@ -321,7 +321,7 @@
       "url": "https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Today’s distributed systems are increasingly complex, leading to subtle bugs that are difficult to detect with standard testing methods. Formal verification can provably rule out such bugs, but historically it has been excessively labor intensive. For distributed systems, recent work shows that, given a correct inductive invariant, nearly all other proof work can be automated; however, the construction of such invariants is still a difficult manual task. In this paper, we demonstrate a new methodology for automating the construction of inductive invariants, given as input a (formal) description of the distributed system and a desired safety condition. Our system performs an exhaustive search within a given space of candidate invariants in order to find and verify inductive invariants which suffice to prove the safety condition. Central to our ability to search efficiently is our algorithm’s ability to learn from counterexamples whenever a candidate fails to be invariant, allowing us to check the remaining candidates more efficiently. We hypothesize that many distributed systems, even complex ones, may have concise invariants that make this approach practical, and in support of this, we show that our system is able to identify and verify inductive invariants for the Paxos protocol, which proved too complex for previous work."
 }
 </script>
 
@@ -339,7 +339,7 @@
 
 
 
-  <title>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All | Ruben Martins</title>
+  <title>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021 | Ruben Martins</title>
 
 </head>
 
@@ -716,7 +716,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All</h1>
+  <h1>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021</h1>
 
   
 
@@ -776,6 +776,53 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/ruben/media/ndss21-swiss.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/secure-foundations/SWISS" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -784,6 +831,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Today’s distributed systems are increasingly complex, leading to subtle bugs that are difficult to detect with standard testing methods. Formal verification can provably rule out such bugs, but historically it has been excessively labor intensive. For distributed systems, recent work shows that, given a correct inductive invariant, nearly all other proof work can be automated; however, the construction of such invariants is still a difficult manual task. In this paper, we demonstrate a new methodology for automating the construction of inductive invariants, given as input a (formal) description of the distributed system and a desired safety condition. Our system performs an exhaustive search within a given space of candidate invariants in order to find and verify inductive invariants which suffice to prove the safety condition. Central to our ability to search efficiently is our algorithm’s ability to learn from counterexamples whenever a candidate fails to be invariant, allowing us to check the remaining candidates more efficiently. We hypothesize that many distributed systems, even complex ones, may have concise invariants that make this approach practical, and in support of this, we show that our system is able to identify and verify inductive invariants for the Paxos protocol, which proved too complex for previous work.</p>
     
 
     
@@ -833,7 +883,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;text=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;text=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -846,7 +896,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/ndss21/&amp;t=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/ndss21/&amp;t=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -859,7 +909,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All&amp;body=https://sat-group.github.io/ruben/publication/ndss21/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021&amp;body=https://sat-group.github.io/ruben/publication/ndss21/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -872,7 +922,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;title=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;title=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -885,7 +935,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All%20https://sat-group.github.io/ruben/publication/ndss21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021%20https://sat-group.github.io/ruben/publication/ndss21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -898,7 +948,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;title=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/ndss21/&amp;title=Finding%20Invariants%20of%20Distributed%20Systems:It%e2%80%99s%20a%20Small%20%28Enough%29%20World%20After%20All,%20NDSS%202021" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -982,13 +1032,13 @@
       
       <li><a href="/ruben/publication/lpar20/">Coloring Unit-Distance Strips using SAT, LPAR 2020</a></li>
       
-      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</a></li>
+      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications, FSE 2021</a></li>
       
-      <li><a href="/ruben/publication/pldi21/">SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</a></li>
+      <li><a href="/ruben/publication/pldi21/">SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021</a></li>
       
-      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring</a></li>
+      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring, ICSE 2021</a></li>
       
-      <li><a href="/ruben/publication/tacas21/">FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</a></li>
+      <li><a href="/ruben/publication/tacas21/">FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021</a></li>
       
     </ul>
   </div>
