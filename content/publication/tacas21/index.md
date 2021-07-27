@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "“FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions"
+title: "FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions"
 subtitle: ""
 summary: ""
 authors: [Margarida Ferreira, Miguel Terra-Neves, Miguel Ventura, Inês Lynce, Ruben Martins]

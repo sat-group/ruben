@@ -5,7 +5,7 @@
     <link>https://sat-group.github.io/ruben/publication-type/1/</link>
       <atom:link href="https://sat-group.github.io/ruben/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 26 Jun 2021 17:16:55 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 26 Jul 2021 17:16:55 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</title>
-      <link>https://sat-group.github.io/ruben/publication/pldi21/</link>
-      <pubDate>Sat, 26 Jun 2021 17:16:55 -0400</pubDate>
-      <guid>https://sat-group.github.io/ruben/publication/pldi21/</guid>
+      <title>AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</title>
+      <link>https://sat-group.github.io/ruben/publication/fse21/</link>
+      <pubDate>Mon, 26 Jul 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/fse21/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All</title>
-      <link>https://sat-group.github.io/ruben/publication/ndss21/</link>
-      <pubDate>Fri, 26 Mar 2021 17:16:55 -0400</pubDate>
-      <guid>https://sat-group.github.io/ruben/publication/ndss21/</guid>
+      <title>SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi21/</link>
+      <pubDate>Sat, 26 Jun 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/pldi21/</guid>
       <description></description>
     </item>
     
@@ -37,7 +37,15 @@
     </item>
     
     <item>
-      <title>“FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</title>
+      <title>Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All</title>
+      <link>https://sat-group.github.io/ruben/publication/ndss21/</link>
+      <pubDate>Fri, 26 Feb 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/ndss21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</title>
       <link>https://sat-group.github.io/ruben/publication/tacas21/</link>
       <pubDate>Fri, 26 Feb 2021 17:16:55 -0400</pubDate>
       <guid>https://sat-group.github.io/ruben/publication/tacas21/</guid>
