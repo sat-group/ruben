@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NDSS 2021"
+title: "Finding Invariants of Distributed Systems:It’s a Small (Enough) World After All, NSDI 2021"
 subtitle: ""
 summary: ""
 authors: [Travis Hance, Marijn Heule, Ruben Martins, Bryan Parno]
@@ -43,9 +43,9 @@ url_code: https://github.com/secure-foundations/SWISS
 url_dataset:
 url_poster:
 url_project:
-url_slides:
+url_slides: https://www.usenix.org/system/files/nsdi21_slides_hance.pdf
 url_source:
-url_video:
+url_video: https://youtu.be/HlkFOk9Mo5Y
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
