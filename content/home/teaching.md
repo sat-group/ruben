@@ -18,14 +18,18 @@ type: book
 ---
 
 * Spring 2021 - [15-414/614 Bug Catching: Automated Program Verification
-](https://www.cs.cmu.edu/~15414/) with Frank Pfenning.
+](https://www.cs.cmu.edu/~15414/) with Frank Pfenning. This course teaches students how to write bug-free code through the process of software verification, which aims to prove the correctness of a program with respect to a mathematical specification
 
-* Fall 2020 - [15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability](http://www.cs.cmu.edu/~mheule/15816-f20/) with Marijn Heule. 
+* Fall 2020 - [15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability](http://www.cs.cmu.edu/~mheule/15816-f20/) with Marijn Heule. This course teaches
+students about automated reasoning techniques and their applications from the
+verification of hardware and software to solve open problems in mathematics.
 
-* Fall 2019 - [15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability](https://www.cs.cmu.edu/~mheule/15816-f19/) with Marijn Heule. 
+* Fall 2019 - [15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability](https://www.cs.cmu.edu/~mheule/15816-f19/) with Marijn Heule. This course teaches
+students about automated reasoning techniques and their applications from the
+verification of hardware and software to solve open problems in mathematics.
 
 * Fall 2018 - [15-414/614 Bug Catching: Automated Program Verification
-](https://www.cs.cmu.edu/~15414/f18/) with Matt Fredrikson.
+](https://www.cs.cmu.edu/~15414/f18/) with Matt Fredrikson. This course teaches students how to write bug-free code through the process of software verification, which aims to prove the correctness of a program with respect to a mathematical specification
 
 
 

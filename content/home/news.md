@@ -19,12 +19,11 @@ type: book
 
 * **Looking for PhD students to work on program synthesis!** If you are interested, send me an email and apply to the Ph.D. program at CMU!
 
-* Teaching [15-816 Advanced Topics in Logic: Automated Reasoning and Satisfiability](http://www.cs.cmu.edu/~mheule/15816-f20/) with Marijn Heule. Learn how to use automated reasoning to solve applications ranging from verification of hardware and software to solving long-standing open problems in mathematics.
+* Paper accepted at **FSE'21**: AlloyMax: Bringing Maximum Satisfaction to Relational Specifications. Changjian Zhang, Ryan Wagner, Pedro Orvalho, David Garlan, Vasco Manquinho, Ruben Martins, Eunsuk Kang. [Distinguished paper award](https://www.isri.cmu.edu/news/2021/0721-zhangzcmbp.html)
 
-* Paper conditionally accepted at **OOPSLA'20**: Program Equivalence for Assisted Grading of Functional Programs (will be available soon). Joshua Clune, Vijay Ramamurthy, Ruben Martins, Umut Acar.
+* Amazon Research Award on [Improving performance and trust of MaxSAT solvers](https://www.amazon.science/research-awards/recipients/ruben-martins-2020). One of the five CMU faculty that were selected for [Amazon Research Awards](https://www.cmu.edu/news/stories/archives/2021/june/amazon-research-awards.html)
 
-* Paper accepted at **ASE'20**: UnchartIt: [An Interactive Framework for Program Recovery from Charts](media/ase20-unchartit.pdf). Daniel Ramos, Jorge Pereira, Ines Lynce, Vasco Manquinho, Ruben Martins.
+* Paper accepted at **PLDI'21**: SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis. Yoshiki Takashima, Ruben Martins, Limin Jia, Corina S Pasareanu. [Cylab press release](https://www.cylab.cmu.edu/news/2021/07/09-SyRust.html)
 
-* Paper accepted at **VLDB'20**: [SQUARES : A SQL Synthesizer Using Query Reverse Engineering](media/vldb20-squares.pdf). Pedro Orvalho, Miguel Terra-Neves, Miguel Ventura, Ruben Martins, Vasco Manquinho.
+* Paper accepted at **ICSE'21**: [SOAR: A Synthesis Approachfor Data Science API Refactoring.”](media/icse21-soar.pdf). Ansong Ni, Daniel Ramos, Aidan Yang, Inês Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues.
 
-* Paper accepted at **LPAR'20**: [Coloring Unit-Distance Strips using SAT](media/lpar20-coloring.pdf). Peter Oostema, Ruben Martins, Marijn Heule.
