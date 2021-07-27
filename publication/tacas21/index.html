@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Form validators based on regular expressions are often used on digital forms to prevent users from inserting data in the wrong format. However, writing these validators can pose a challenge to some users. We present Forest, a regular expression synthesizer for digital form validations. Forest produces a regular expression that matches the desired pattern for the input values and a set of conditions over capturing groups that ensure the validity of integer values in the input. Our synthesis procedure is based on enumerative search and uses a Satisfiability Modulo Theories (SMT) solver to explore and prune the search space.We propose a novel representation for regular expressions synthesis, multitree, which induces patterns in the examples and uses them to split the problem through a divide-and-conquer approach. We also present a new SMT encoding to synthesize capture conditions for a given regular expression. To increase confidence in the synthesized regular expression, we implement user interaction based on distinguishing inputs. We evaluated Forest on real-world form-validation instances using regular expressions. Experimental results show that Forest successfully returns the desired regular expression in 70% of the instances and outperforms Regel, a state-of-the-art regular expression synthesizer.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://sat-group.github.io/ruben/publication/tacas21/">
@@ -272,8 +272,8 @@
   
   <meta property="og:site_name" content="Ruben Martins">
   <meta property="og:url" content="https://sat-group.github.io/ruben/publication/tacas21/">
-  <meta property="og:title" content="FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions | Ruben Martins">
-  <meta property="og:description" content=""><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021 | Ruben Martins">
+  <meta property="og:description" content="Form validators based on regular expressions are often used on digital forms to prevent users from inserting data in the wrong format. However, writing these validators can pose a challenge to some users. We present Forest, a regular expression synthesizer for digital form validations. Forest produces a regular expression that matches the desired pattern for the input values and a set of conditions over capturing groups that ensure the validity of integer values in the input. Our synthesis procedure is based on enumerative search and uses a Satisfiability Modulo Theories (SMT) solver to explore and prune the search space.We propose a novel representation for regular expressions synthesis, multitree, which induces patterns in the examples and uses them to split the problem through a divide-and-conquer approach. We also present a new SMT encoding to synthesize capture conditions for a given regular expression. To increase confidence in the synthesized regular expression, we implement user interaction based on distinguishing inputs. We evaluated Forest on real-world form-validation instances using regular expressions. Experimental results show that Forest successfully returns the desired regular expression in 70% of the instances and outperforms Regel, a state-of-the-art regular expression synthesizer."><meta property="og:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -303,7 +303,7 @@
     "@type": "WebPage",
     "@id": "https://sat-group.github.io/ruben/publication/tacas21/"
   },
-  "headline": "FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions",
+  "headline": "FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021",
   
   "datePublished": "2021-02-26T17:16:55-04:00",
   "dateModified": "2021-07-26T17:16:55-04:00",
@@ -321,7 +321,7 @@
       "url": "https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Form validators based on regular expressions are often used on digital forms to prevent users from inserting data in the wrong format. However, writing these validators can pose a challenge to some users. We present Forest, a regular expression synthesizer for digital form validations. Forest produces a regular expression that matches the desired pattern for the input values and a set of conditions over capturing groups that ensure the validity of integer values in the input. Our synthesis procedure is based on enumerative search and uses a Satisfiability Modulo Theories (SMT) solver to explore and prune the search space.We propose a novel representation for regular expressions synthesis, multitree, which induces patterns in the examples and uses them to split the problem through a divide-and-conquer approach. We also present a new SMT encoding to synthesize capture conditions for a given regular expression. To increase confidence in the synthesized regular expression, we implement user interaction based on distinguishing inputs. We evaluated Forest on real-world form-validation instances using regular expressions. Experimental results show that Forest successfully returns the desired regular expression in 70% of the instances and outperforms Regel, a state-of-the-art regular expression synthesizer."
 }
 </script>
 
@@ -339,7 +339,7 @@
 
 
 
-  <title>FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions | Ruben Martins</title>
+  <title>FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021 | Ruben Martins</title>
 
 </head>
 
@@ -716,7 +716,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</h1>
+  <h1>FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions, TACAS 2021</h1>
 
   
 
@@ -776,6 +776,53 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/ruben/media/tacas21-forest.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/Marghrid/FOREST" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -784,6 +831,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Form validators based on regular expressions are often used on digital forms to prevent users from inserting data in the wrong format. However, writing these validators can pose a challenge to some users. We present Forest, a regular expression synthesizer for digital form validations. Forest produces a regular expression that matches the desired pattern for the input values and a set of conditions over capturing groups that ensure the validity of integer values in the input. Our synthesis procedure is based on enumerative search and uses a Satisfiability Modulo Theories (SMT) solver to explore and prune the search space.We propose a novel representation for regular expressions synthesis, multitree, which induces patterns in the examples and uses them to split the problem through a divide-and-conquer approach. We also present a new SMT encoding to synthesize capture conditions for a given regular expression. To increase confidence in the synthesized regular expression, we implement user interaction based on distinguishing inputs. We evaluated Forest on real-world form-validation instances using regular expressions. Experimental results show that Forest successfully returns the desired regular expression in 70% of the instances and outperforms Regel, a state-of-the-art regular expression synthesizer.</p>
     
 
     
@@ -833,7 +883,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;text=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;text=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -846,7 +896,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/tacas21/&amp;t=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://sat-group.github.io/ruben/publication/tacas21/&amp;t=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -859,7 +909,7 @@
       
       
       <li>
-        <a href="mailto:?subject=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions&amp;body=https://sat-group.github.io/ruben/publication/tacas21/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021&amp;body=https://sat-group.github.io/ruben/publication/tacas21/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -872,7 +922,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;title=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;title=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -885,7 +935,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions%20https://sat-group.github.io/ruben/publication/tacas21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021%20https://sat-group.github.io/ruben/publication/tacas21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -898,7 +948,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;title=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://sat-group.github.io/ruben/publication/tacas21/&amp;title=FOREST:%20An%20Interactive%20Multi-tree%20Synthesizer%20for%20Regular%20Expressions,%20TACAS%202021" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -995,11 +1045,11 @@
       
       <li><a href="/ruben/publication/vldb20/">SQUARES : A SQL Synthesizer Using Query Reverse Engineering, VLDB 2020</a></li>
       
-      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring</a></li>
+      <li><a href="/ruben/publication/icse21/">SOAR: A Synthesis Approachfor Data Science API Refactoring, ICSE 2021</a></li>
       
-      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</a></li>
+      <li><a href="/ruben/publication/fse21/">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications, FSE 2021</a></li>
       
-      <li><a href="/ruben/publication/pldi21/">SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</a></li>
+      <li><a href="/ruben/publication/pldi21/">SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis, PLDI 2021</a></li>
       
     </ul>
   </div>
