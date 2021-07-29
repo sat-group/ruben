@@ -38,7 +38,7 @@ featured: false
 #   icon: twitter
 
 url_pdf: media/vldb19-trinity.pdf
-url_code: 
+url_code: https://github.com/fredfeng/Trinity
 url_dataset:
 url_poster:
 url_project:

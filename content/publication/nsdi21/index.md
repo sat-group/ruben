@@ -38,7 +38,7 @@ support of this, we show that our system is able to identify
 and verify inductive invariants for the Paxos protocol, which
 proved too complex for previous work."
 
-url_pdf: media/ndss21-swiss.pdf
+url_pdf: media/nsdi21-swiss.pdf
 url_code: https://github.com/secure-foundations/SWISS
 url_dataset:
 url_poster:

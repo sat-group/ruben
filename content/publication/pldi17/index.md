@@ -13,13 +13,28 @@ publishDate: 2020-09-21T15:38:42-04:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "This paper presents a novel component-based synthesis
+algorithm that marries the power of type-directed search
+with lightweight SMT-based deduction and partial evaluation. Given a set of components together with their overapproximate first-order specifications, our method first generates a program sketch over a subset of the components and
+checks its feasibility using an SMT solver. Since a program
+sketch typically represents many concrete programs, the use
+of SMT-based deduction greatly increases the scalability
+of the algorithm. Once a feasible program sketch is found,
+our algorithm completes the sketch in a bottom-up fashion,
+using partial evaluation to further increase the power of deduction for rejecting partially-filled program sketches. We
+apply the proposed synthesis methodology for automating a
+large class of data preparation tasks that commonly arise in
+data science. We have evaluated our synthesis algorithm on
+dozens of data wrangling and consolidation tasks obtained
+from on-line forums, and we show that our approach can
+automatically solve a large class of problems encountered
+by R users."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,14 +51,14 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
+url_pdf: media/pldi17-morpheus.pdf
+url_code: https://github.com/fredfeng/Morpheus-public
 url_dataset:
 url_poster:
-url_project:
+url_project: https://utopia-group.github.io/morpheus/
 url_slides:
 url_source:
-url_video:
+url_video: https://youtu.be/6Ti5oaBzi0s
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

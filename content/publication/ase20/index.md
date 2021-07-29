@@ -55,13 +55,13 @@ featured: false
 #   icon: twitter
 
 url_pdf: media/ase20-unchartit.pdf
-url_code:
+url_code: https://github.com/danieltrt/UnchartIt
 url_dataset:
 url_poster:
 url_project: http://sat.inesc-id.pt/unchartit/
 url_slides:
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=OL2FbN6_BYg
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

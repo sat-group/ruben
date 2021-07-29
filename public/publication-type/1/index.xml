@@ -109,6 +109,22 @@
     </item>
     
     <item>
+      <title>Program Synthesis using Conflict-Driven Learning, PLDI 2018</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi18/</link>
+      <pubDate>Fri, 21 Sep 2018 15:38:45 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/pldi18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples, PLDI 2017</title>
+      <link>https://sat-group.github.io/ruben/publication/pldi17/</link>
+      <pubDate>Sat, 21 Oct 2017 15:38:42 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/pldi17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploiting Resolution-based Representations for MaxSAT Solving, SAT 2015</title>
       <link>https://sat-group.github.io/ruben/publication/sat15/</link>
       <pubDate>Mon, 21 Sep 2015 15:38:58 -0400</pubDate>
