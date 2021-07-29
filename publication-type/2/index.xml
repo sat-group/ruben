@@ -5,12 +5,20 @@
     <link>https://sat-group.github.io/ruben/publication-type/2/</link>
       <atom:link href="https://sat-group.github.io/ruben/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 May 2019 15:39:29 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 15:39:58 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://sat-group.github.io/ruben/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>SQUARES : A SQL Synthesizer Using Query Reverse Engineering, VLDB 2020</title>
+      <link>https://sat-group.github.io/ruben/publication/vldb20/</link>
+      <pubDate>Tue, 01 Sep 2020 15:39:58 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/vldb20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Trinity: An Extensible Synthesis Framework for Data Science, VLDB 2019</title>
