@@ -13,7 +13,7 @@ publishDate: 2020-09-21T15:39:58-04:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "International Conference on Very Large Databases, VLDB Endowment Inc."
@@ -53,7 +53,7 @@ url_poster:
 url_project: https://squares-sql.github.io/
 url_slides:
 url_source:
-url_video:
+url_video: https://youtu.be/ZJQcoWw-l14
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
