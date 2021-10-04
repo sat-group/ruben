@@ -18,9 +18,12 @@ type: book
 ---
 
 **PhD Students:**
-* [Daniel Ramos](http://sat.inesc-id.pt/~drr/) (co-advised with Claire Le Goues and Vasco Manquinho)
-* [Margarida Ferreira](https://marghrid.github.io/) (co-advised with Ines Lynce)
-* Ricardo Brancas (co-advised with Vasco Manquinho)
+* [Daniel Ramos](http://sat.inesc-id.pt/~drr/) (ISR, Dual Degree CMU-Portugal, co-advised with Claire Le Goues and Vasco Manquinho)
+* [Margarida Ferreira](https://marghrid.github.io/) (CSD, Dual Degree CMU-Portugal, co-advised with Ines Lynce)
+* Ricardo Brancas (CSD, Affiliated CMU-Portugal, co-advised with Vasco Manquinho)
+* Aidan Yang (ISR, co-advised with Claire Le Goues and Vincent Hellendoorn)
+* Sophia Kolak (ISR, co-advised with Claire Le Goues and Vincent Hellendoorn)
+
 
 **Alumni:**
 
