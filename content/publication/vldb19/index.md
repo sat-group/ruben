@@ -39,12 +39,12 @@ featured: false
 
 url_pdf: media/vldb19-trinity.pdf
 url_code: https://github.com/fredfeng/Trinity
-url_dataset:
+url_dataset: 
 url_poster:
 url_project:
 url_slides:
 url_source:
-url_video:
+url_video: https://youtu.be/OyPbIO4ttaw
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
