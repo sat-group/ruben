@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Maximum Satisfiability, Handbook of Satisfiability, 2nd edition, Chapter 24"
+title: "Handbook of Satisfiability, 2nd edition, Chapter 24: Maximum Satisfiability"
 authors: [Fahiem Bacchus, Matti Jarvisalo, Ruben Martins.
 ]
 date: 2021-01-01T15:38:26-04:00

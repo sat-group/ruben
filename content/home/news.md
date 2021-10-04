@@ -27,5 +27,5 @@ type: book
 
 * Paper accepted at **ICSE'21**: [SOAR: A Synthesis Approach for Data Science API Refactoring.](media/icse21-soar.pdf) Ansong Ni, Daniel Ramos, Aidan Yang, Inês Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues.
 
-* Handbook of Satisfiability, 2nd edition, Chapter 24 [Maximum Satisfiability.](media/p02c24-mxm.pdf) Fahiem Bacchus, Matti Järvisalo, Ruben Martins.
+* New chapter on MaxSAT in the **Handbook of Satisfiability**, 2nd edition, Chapter 24: [Maximum Satisfiability.](media/p02c24-mxm.pdf) Fahiem Bacchus, Matti Järvisalo, Ruben Martins.
 
