@@ -5,12 +5,20 @@
     <link>https://sat-group.github.io/ruben/</link>
       <atom:link href="https://sat-group.github.io/ruben/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruben Martins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 26 Jul 2021 17:16:55 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 17:16:55 -0400</lastBuildDate>
     <image>
       <url>https://sat-group.github.io/ruben/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ruben Martins</title>
       <link>https://sat-group.github.io/ruben/</link>
     </image>
+    
+    <item>
+      <title>Counterfeiting Congestion Control Algorithms, HotNets 2021</title>
+      <link>https://sat-group.github.io/ruben/publication/hotnets21/</link>
+      <pubDate>Mon, 01 Nov 2021 17:16:55 -0400</pubDate>
+      <guid>https://sat-group.github.io/ruben/publication/hotnets21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AlloyMax: Bringing Maximum Satisfaction to Relational Specifications, FSE 2021</title>
@@ -33,14 +41,6 @@
       <link>https://sat-group.github.io/ruben/publication/icse21/</link>
       <pubDate>Fri, 26 Mar 2021 17:16:55 -0400</pubDate>
       <guid>https://sat-group.github.io/ruben/publication/icse21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Counterfeiting Congestion Control Algorithms, HotNets 2021</title>
-      <link>https://sat-group.github.io/ruben/publication/hotnets21/</link>
-      <pubDate>Fri, 26 Feb 2021 17:16:55 -0400</pubDate>
-      <guid>https://sat-group.github.io/ruben/publication/hotnets21/</guid>
       <description></description>
     </item>
     
