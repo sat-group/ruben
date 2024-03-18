@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            font-size: 18px; /* Increased base font size */
+        }
+        .container {
+            width: 80%;
+            max-width: 800px; /* Added max-width to limit content stretching */
+            margin: auto;
+            overflow: hidden;
+        }
+        header, footer, nav {
+            background-color: #C41230; /* Red color */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0.5em 0;
+            font-size: 2.5em; /* Larger font size for the main title */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em; /* Larger font size for navigation links */
+        }
+        section h2 {
+            font-size: 2em; /* Larger font size for section headers */
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-photo img {
+            width: 100%;
+            height: auto;
+        }
+        /* Adjusted Timeline styles */
+        .timeline {
+          position: relative;
+          padding: 0;
+          list-style: none;
+        }
+
+        .timeline::after {
+          content: '';
+          position: absolute;
+          width: 2px;
+          background-color: #C41230; /* Match the theme color */
+          top: 0;
+          bottom: 0;
+          left: 30px; /* Adjust based on your layout preference */
+        }
+
+        .timeline-item {
+          position: relative;
+          padding: 10px 0;
+          padding-left: 60px; /* Increase padding to accommodate the timeline on the left */
+        }
+
+        .timeline-item::before {
+          content: '';
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          top: 15px;
+          left: 26px; /* Adjust to align with the timeline */
+          background-color: #fff;
+          border: 2px solid #C41230; /* Match the theme color */
+          border-radius: 50%;
+          z-index: 100;
+        }
+
+        .timeline-content {
+          padding: 10px;
+          background-color: #f9f9f9;
+          position: relative;
+          border-radius: 6px;
+        }
+
+        .timeline-year {
+        background-color: #C41230;
+        color: white;
+        padding: 10px;
+        margin-top: 10px;
+        }
+
+        .timeline-content {
+            background-color: #f2f2f2; /* Light grey background for papers */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .paper {
+            margin-bottom: 15px;
+        }
+
+        .paper-title {
+            font-weight: bold;
+        }
+
+        .paper-details {
+            margin-top: 5px;
+        }
+
+        .course-item {
+            margin-bottom: 20px; /* Space between course entries */
+        }
+
+        .course-title {
+            font-weight: bold;
+        }
+
+        .course-box {
+            background-color: #f2f2f2; /* Light grey background */
+            padding: 10px;
+            margin-bottom: 20px; /* Space between course entries */
+        }
+
+        .course-year {
+            background-color: #C41230;
+            color: white;
+            padding: 5px;
+            display: inline-block; /* Makes the box wrap the text */
+            margin-bottom: 5px; /* Space between year and course title */
+        }
+
+        .paper:not(:last-child) {
+            border-bottom: 2px solid #C41230; /* Red line */
+            padding-bottom: 10px; /* Add space above the border */
+            margin-bottom: 10px; /* Add space below the border */
+        }
+
+        .phd-title {
+            background-color: #C41230; /* Red background */
+            color: white; /* White text */
+            padding: 5px;
+            display: inline-block; /* Only as wide as necessary */
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-photo">
+            <img src="photo.jpg" alt="Ruben Martins">
+        </div>
+        <h1>Ruben Martins</h1>
+        <p>Assistant Research Professor at Carnegie Mellon University</p>
+    </header>
+    <nav>
+        <a href="#bio">Biography</a>
+        <a href="#publications">Publications</a>
+        <a href="#students">Students</a>
+        <a href="#teaching">Teaching</a>
+    </nav>
+    <div class="container">
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>Ruben Martins is an Assistant Research Professor at Carnegie Mellon University. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on pushing the boundaries of program synthesis and enabling the technology to make programming and formal methods tools more accessible. Ruben received his Ph.D. with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at the University of Oxford, UK (2014-2015) and a postdoctoral researcher at UT Austin (2015-2017). He has published in top-tier venues, including POPL, PLDI, FSE, SAT, and CP. He has won a distinguished paper award at PLDI 2018 for his work on program synthesis, FSE 2021 for his work on optimization, and SAT 2022 for his work on verified encodings. He has also developed several award-winning constraint solvers. He is the leading developer of Open-WBO: an open-source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions. Open-WBO is used to solve many real-world discrete optimization problems, including finding an optimal seating arrangement for his wedding.</p>
+        </section>
+
+        <section id="publications">
+        <h2>Publications</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-year">2024</div>
+                <p></p>
+                <div class="paper">
+                    <div class="paper-authors">Aidan Z. H. Yang, Claire Le Goues, Ruben Martins, Vincent J. Hellendoorn</div>
+                    <div class="paper-title">Large Language Models for Test-Free Fault Localization</div>
+                    <div class="paper-details">In International Conference on Software Engineering (ICSE’24), ACM, 2024.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Anup Agarwal, Venkat Arun, Devdeep Ray, Ruben Martins, Srinivasan Seshan</div>
+                    <div class="paper-title">Towards provably performant congestion control</div>
+                    <div class="paper-details">In Network and Distributed System Security Symposium (NSDI’24), USENIX Association, 2024.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Soojin Moon, Milind Srivastava, Yves Bieri, Ruben Martins, Vyas Sekar</div>
+                    <div class="paper-title">Pryde: A Modular Generalizable Workflow for Uncovering Evasion Attacks Against Stateful Firewall Deployments</div>
+                    <div class="paper-details">In Symposium on Security and Privacy (S&P’24), IEEE, 2024.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Ricardo Brancas, Miguel Terra-Neves, Miguel Ventura, Vasco Manquinho, Ruben Martins</div>
+                    <div class="paper-title">Towards Reliable SQL Synthesis: Fuzzing-Based Evaluation and Disambiguation</div>
+                    <div class="paper-details">In International Conference on Fundamental Approaches to Software Engineering (FASE’24), Springer, 2024.</div>
+                </div>
+            </div>
+            </li>
+            
+            <li class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-year">2023</div>
+                <p></p>
+                <div class="paper">
+                    <div class="paper-authors">Stephan Gocht, Ruben Martins, Jakob Nordström, Andy Oertel</div>
+                    <div class="paper-title">Certified CNF Translations for Pseudo-Boolean Solving (Extended Abstract)</div>
+                    <div class="paper-details">In International Joint Conference on Artificial Intelligence (IJCAI’23), ijcai.org, 2023.</div>
+                </div>
+                <div class="paper">
+                <div class="paper-authors">Daniel Ramos, Hailie Mitchell, Ines Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues</div>
+                <div class="paper-title">MELT: Mining Effective Lightweight Transformations from Pull Requests</div>
+                <div class="paper-details">In Automated Software Engineering Conference (ASE’23), IEEE, 2023.</div>
+                </div>
+                <div class="paper">
+                <div class="paper-authors">Pedro Orvalho, Vasco Manquinho, Ruben Martins</div>
+                <div class="paper-title">UpMax: User Partitioning for MaxSAT</div>
+                <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’23), LIPIcs, 2023.</div>
+            </div>
+            </div>
+            </li>
+
+            <li class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-year">2022</div>
+                <p></p>
+                <div class="paper">
+                    <div class="paper-authors">Anup Agarwal, Venkat Arun, Devdeep Ray, Ruben Martins, Srinivasan Seshan</div>
+                    <div class="paper-title">Automating network heuristic design and analysis</div>
+                    <div class="paper-details">In Workshop on Hot Topics in Networks (HotNets’22), ACM, 2022.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Stephan Gocht, Ruben Martins, Jakob Nordström, Andy Oertel</div>
+                    <div class="paper-title">Certified CNF Translations for Pseudo-Boolean Solving</div>
+                    <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’22), LIPIcs, 2022. <b>Best Paper Award.</b></div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Francisco Pereira, Gonçalo Matos, Hugo Sadok, Daehyeok Kim, Ruben Martins, Justine Sherry, Fernando Ramos, Luis Pedrosa</div>
+                    <div class="paper-title">Automatic generation of network function accelerators using component-based synthesis</div>
+                    <div class="paper-details">In ACM SIGCOMM Symposium on SDN Research (SOSR’22), ACM, 2022.</div>
+                </div>
+            </div>
+            </li>
+
+            <li class="timeline-item">
+            <div class="timeline-content">
+                <div class="timeline-year">2021</div>
+                <p></p>
+                <div class="paper">
+            <div class="paper-authors">Fahiem Bacchus, Matti Järvisalo, Ruben Martins</div>
+            <div class="paper-title">Maximum Satisfiability</div>
+            <div class="paper-details">In Handbook of Satisfiability, IOS, 2021.</div>
+            </div>
+                <div class="paper">
+                    <div class="paper-authors">Margarida Ferreira, Akshay Narayan, Inês Lynce, Ruben Martins, Justine Sherry</div>
+                    <div class="paper-title">Counterfeiting Congestion Control Algorithms</div>
+                    <div class="paper-details">In Workshop on Hot Topics in Networks (HotNets’21), ACM, 2021.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Changjian Zhang, Ryan Wagner, Pedro Orvalho, David Garlan, Vasco Manquinho, Ruben Martins, Eunsuk Kang</div>
+                    <div class="paper-title">AlloyMax: Bringing Maximum Satisfaction to Relational Specifications</div>
+                    <div class="paper-details">In Symposium on the Foundations of Software Engineering (FSE’21), ACM, 2021. <b>Distinguished Paper Award.</b></div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Yoshiki Takashima, Ruben Martins, Limin Jia, Corina S Pasareanu</div>
+                    <div class="paper-title">SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis</div>
+                    <div class="paper-details">In Conference on Programming Language Design and Implementation (PLDI’21), ACM, 2021.</div>
+                </div>
+                <div class="paper">
+            <div class="paper-authors">Ansong Ni, Daniel Ramos, Aidan Yang, Inês Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues</div>
+            <div class="paper-title">SOAR: A Synthesis Approach for Data Science API Refactoring</div>
+            <div class="paper-details">In International Conference on Software Engineering (ICSE’21), ACM, 2021.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Margarida Ferreira, Miguel Terra-Neves, Miguel Ventura, Inês Lynce, Ruben Martins</div>
+            <div class="paper-title">FOREST: An Interactive Multi-tree Synthesizer for Regular Expressions</div>
+            <div class="paper-details">In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS’21), Springer, 2021.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Travis Hance, Marijn Heule, Ruben Martins, Bryan Parno</div>
+            <div class="paper-title">Finding Invariants of Distributed Systems: It’s a Small (Enough) World After All</div>
+            <div class="paper-details">In Network and Distributed System Security Symposium (NSDI’21), USENIX Association, 2021.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Michael McCall, Dionisio de Niz, Amit Vasudevan, Bjorn Andersson, Mark Klein, John P. Lehoczky, Hyoseung Kim</div>
+            <div class="paper-title">Formal Verification of a Mixed-Trust Synchronization Protocol</div>
+            <div class="paper-details">In International Conference on Real-Time Networks and Systems (RTNS’21), ACM, 2021.</div>
+        </div>
+            </div>
+            </li>
+
+        <li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2020</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Joshua Clune, Vijay Ramamurthy, Ruben Martins, Umut A. Acar</div>
+            <div class="paper-title">Program equivalence for assisted grading of functional programs</div>
+            <div class="paper-details">In Object-oriented Programming, Systems, Languages, and Applications (OOPSLA’20), ACM, 2020.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Daniel Ramos, Jorge Pereira, Inês Lynce, Vasco Manquinho, Ruben Martins</div>
+            <div class="paper-title">UNCHARTIT: An Interactive Framework for Program Recovery from Charts</div>
+            <div class="paper-details">In Automated Software Engineering Conference (ASE’20), IEEE, 2020.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Amit Vasudevan, Petros Maniatis, Ruben Martins</div>
+            <div class="paper-title">überSpark: Practical, Provable, End-to-End Guarantees on Commodity Heterogenous Interconnected Computing Platforms</div>
+            <div class="paper-details">In ACM SIGOPS Operating Systems Review (OSR’20), ACM, 2020.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Pedro Orvalho, Miguel Terra-Neves, Miguel Ventura, Ruben Martins, Vasco Manquinho</div>
+            <div class="paper-title">SQUARES: A SQL Synthesizer Using Query Reverse Engineering</div>
+            <div class="paper-details">In International Conference on Very Large Data Bases (VLDB’20), ACM, 2020.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Peter Oostema, Ruben Martins, Marijn J. H. Heule</div>
+            <div class="paper-title">Coloring Unit-Distance Strips using SAT</div>
+            <div class="paper-details">In International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR’20), EPiC Series in Computing, 2020.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2019</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Pedro Orvalho, Miguel Terra-Neves, Miguel Ventura, Ruben Martins, Vasco Manquinho</div>
+            <div class="paper-title">Encodings for Enumeration-Based Program Synthesis</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’19), 583-599, Springer, 2019.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Yanju Chen, Ruben Martins, Yu Feng</div>
+            <div class="paper-title">Maximal Multi-layer Specification Synthesis</div>
+            <div class="paper-details">In Symposium on the Foundations of Software Engineering (FSE’19), ACM, 2019.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Jia Chen, Yanju Chen, Yu Feng, Isil Dillig</div>
+            <div class="paper-title">Trinity: An Extensible Synthesis Framework for Data Science</div>
+            <div class="paper-details">In International Conference on Very Large Data Bases (VLDB’19), ACM, 2019.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2018</div>
+        <p></p>
+         <div class="paper">
+            <div class="paper-authors">Inês Lynce, Vasco Manquinho, Ruben Martins</div>
+            <div class="paper-title">Parallel Maximum Satisfiability</div>
+            <div class="paper-details">In Handbook of Parallel Constraint Reasoning, Springer, 2018.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Saurabh Joshi, Prateek Kumar, Ruben Martins, Sukrut Rao</div>
+            <div class="paper-title">Approximation Strategies for Incomplete MaxSAT</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’18), 219-228, Springer, 2018.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Edward Zulkoski, Ruben Martins, Christoph M. Wintersteiger, Robert Robere, Jia Hui Liang, Krzysztof Czarnecki, Vijay Ganesh</div>
+            <div class="paper-title">Learning-Sensitive Backdoors with Restarts</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’18), 453-469, Springer, 2018.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Edward Zulkoski, Ruben Martins, Christoph M. Wintersteiger, Jia Hui Liang, Krzysztof Czarnecki, Vijay Ganesh</div>
+            <div class="paper-title">The Effect of Structural Measures and Merges on SAT Solver Performance</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’18), 436-452, Springer, 2018.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Yu Feng, Ruben Martins, Osbert Bastani, Işil Dillig</div>
+            <div class="paper-title">Program Synthesis using Conflict-Driven Learning</div>
+            <div class="paper-details">In Conference on Programming Language Design and Implementation (PLDI’18), 420-435, ACM, 2018. <b>Distinguished Paper Award.</b></div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2017</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Yu Feng, Ruben Martins, Jacob Van Geffen, Işil Dillig, Swarat Chaudhuri</div>
+            <div class="paper-title">Component-based synthesis of table consolidation and transformation tasks from examples</div>
+            <div class="paper-details">In Conference on Programming Language Design and Implementation (PLDI’17), 422-436, ACM, 2017.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Yu Feng, Ruben Martins, Yuepeng Wang, Işil Dillig, Thomas W. Reps</div>
+            <div class="paper-title">Component-based synthesis for complex APIs</div>
+            <div class="paper-details">In Symposium on Principles of Programming Languages (POPL’17), 599-612, ACM, 2017.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Yu Feng, Osbert Bastani, Ruben Martins, Işil Dillig, Saswat Anand</div>
+            <div class="paper-title">Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability</div>
+            <div class="paper-details">In Network and Distributed System Security Symposium (NDSS’17), Internet Society, 2017.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2016</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Yuepeng Wang, Yu Feng, Ruben Martins, Arati Kaushik, Işil Dillig, Steven P. Reiss</div>
+            <div class="paper-title">Hunter: next-generation code reuse for Java</div>
+            <div class="paper-details">In International Symposium on Foundations of Software Engineering (FSE’16), 1028-1032, ACM, 2016.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Martin Brain, Liana Hadarean, Daniel Kroening, Ruben Martins</div>
+            <div class="paper-title">Automatic Generation of Propagation Complete SAT Encodings</div>
+            <div class="paper-details">In International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI’16), 536-556, Springer, 2016.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2015</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Miguel Neves, Ruben Martins, Mikoláš Janota, Inês Lynce, Vasco Manquinho</div>
+            <div class="paper-title">Exploiting Resolution-based Representations for MaxSAT Solving</div>
+            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’15), Springer, 2015.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Saurabh Joshi, Ruben Martins, Vasco Manquinho</div>
+            <div class="paper-title">Generalized Totalizer Encoding for Pseudo-Boolean Constraints</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’15), Springer, 2015.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Samuel Bucheli, Daniel Kroening, Ruben Martins, Ashutosh Natraj</div>
+            <div class="paper-title">From AgentSpeak to C for Unmanned Aerial Vehicles</div>
+            <div class="paper-details">In Towards Autonomous Robotic Systems (TAROS’15), Springer, 2015.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Peter Schrammel, Daniel Kroening, Martin Brain, Ruben Martins, Tino Teige, Tom Bienmüller</div>
+            <div class="paper-title">Successful Use of Incremental BMC in Automotive Industry</div>
+            <div class="paper-details">In Formal Methods for Industrial Critical Systems (FMICS’15), Springer, 2015.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2014</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Saurabh Joshi, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Incremental Cardinality Constraints for MaxSAT</div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP’14), Springer, 2014. <b>Most influential paper at CP’14.</b></div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Open-WBO: A Modular MaxSAT Solver</div>
+            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’14), Springer, 2014.</div>
+        </div>
+    </div>
+</li>
+
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2013</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Community-based Partitioning for MaxSAT Solving</div>
+            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’13), Springer, 2013.</div>
+        </div>
+    </div>
+</li>
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2012</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Ana Graça</div>
+            <div class="paper-title">Boolean Satisfiability and Optimization: Games, Puzzles and Genetics (in Portuguese)</div>
+            <div class="paper-details">In Números, Cirurgias e Nós de Gravata, 252-270, IST Press, 2012.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">On Partitioning for Maximum Satisfiability</div>
+            <div class="paper-details">In European Conference on Artificial Intelligence (ECAI’12), IOS Press, 2012.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Clause Sharing in Parallel MaxSAT</div>
+            <div class="paper-details">In Learning and Intelligent Optimization (LION’12), Springer, 2012.</div>
+        </div>
+    </div>
+</li>
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2011</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Exploiting Cardinality Encodings in Parallel Maximum Satisfiability</div>
+            <div class="paper-details">In International Conference on Tools with Artificial Intelligence (ICTAI’11), IEEE, 2011.</div>
+        </div>
+    </div>
+</li>
+<li class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-year">2010</div>
+        <p></p>
+        <div class="paper">
+            <div class="paper-authors">Vasco Manquinho, Ruben Martins, Inês Lynce</div>
+            <div class="paper-title">Improving Unsatisfiability-based Algorithms for Boolean Optimization</div>
+            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT’10), Springer, 2010.</div>
+        </div>
+        <div class="paper">
+            <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
+            <div class="paper-title">Improving Search Space Splitting for Parallel SAT Solving</div>
+            <div class="paper-details">In International Conference on Tools with Artificial Intelligence (ICTAI’10), IEEE, 2010.</div>
+        </div>
+    </div>
+</li>
+
+            
+        </ul>
+        </section>
+
+        <section id="students">
+    <h2>Students</h2>
+    <span class="phd-title"><b>PhD Students:</b></span>
+    <ul>
+        <li><a href="https://danieltrt.github.io/">Daniel Ramos</a> (S3D, Dual Degree CMU-Portugal, co-advised with Claire Le Goues and Vasco Manquinho)</li>
+        <li><a href="https://marghrid.github.io/">Margarida Ferreira</a> (CSD, Dual Degree CMU-Portugal, co-advised with Ines Lynce)</li>
+        <li><a href="https://www.ricardobrancas.com/">Ricardo Brancas</a> (CSD, Affiliated CMU-Portugal, co-advised with Vasco Manquinho)</li>
+        <li><a href="https://aidanby.github.io/">Aidan Yang</a> (S3D, co-advised with Claire Le Goues)</li>
+        <li><a href="https://sophiakolak.github.io/">Sophia Kolak</a> (S3D, co-advised with Claire Le Goues)</li>
+    </ul>
+            
+<span class="phd-title"><b>Alumni:</b></span>
+
+<p>
+     I am always happy to work with undergraduate students at CMU for either <a href="https://csd.cmu.edu/cs-undergraduate-research-options">SCS Independent Studies</a>, <a href="https://cmu-research.github.io/07400-s24/">07-400</a>, during the Summer or the <a href="https://www.cmu.edu/scs/s3d/reuse/">REUSE program</a>.
+</p>
+
+<p>Previous students that I mentored at CMU:</p>
+
+<ul>
+    <li>Joao Sa (CMU-Portugal Visting MSc Student, Fall 2023)</li>
+    <li>Aditi Pande (07-400, Spring 2023)</li>
+    <li>Stephanie Eristoff (07-400, Spring 2023)</li>
+    <li>Hailie Mitchell (REUSE, Summer 2022)</li>
+    <li>Andreia Pereira (Visiting MSc Student, Spring 2022)</li>
+    <li>Pedro Nunes (Visiting MSc Student, Spring 2022)</li>
+    <li>Joshua Clune (Research Project, 2019-2020)</li>
+    <li>Harutyun Rehanyan (REUSE, Summer 2020)</li>
+    <li>Aidan Yang (REUSE, Summer 2020)</li>
+    <li>Audrey Seo (REUSE, Summer 2019)</li>
+    <li>Daniel Gibert Llaurado (Visiting PhD Student, Fall 2019)</li>
+    <li>Aaron Meyers (Internship, Summer 2019)</li>
+    <li>Pedro Miguel Orvalho (Visiting MSc student., Spring 2019)</li>
+    <li>Rodrigo Bernado (Visiting MSc Student, Spring 2019)</li>
+    <li>Yinglan Chen (SCS Independent Studies, Spring 2019)</li>
+    <li>Clara Sellke (SCS Independent Studies, Fall 2018)</li>
+    <li>Naveen Pai (SCS Independent Studies, Fall 2018)</li>
+    <li>David Chen (SCS Independent Studies, Fall 2018)</li>
+    <li>Zachary Susag (REUSE, Summer 2018)</li>
+    <li>Avital Rabinovitch (Internship, Summer 2018)</li>
+    <li>Kaige Liu (SCS Independent Studies, Spring 2018)</li>
+    <li>Anlun Xu (SCS Independent Studies, Spring 2018)</li>
+    <li>Tianlei Pan (SCS Independent Studies, Spring 2018)</li>
+    <li>Mayank Jai (SCS Independent Studies, Spring 2018)</li>
+</ul>
+
+<p>Contact me if you are an undergraduate student that wants to work on constraint solving, program verification or program synthesis.</p>
+        </section>
+        <section id="teaching">
+            <h2>Teaching</h2>
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2024</span>
+                <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
+                <a href="https://cmu-research.github.io/07400-s24/">Course Website</a>
+                <p></p>
+                <div class="course-title">15-414/614 (Spring): Bug Catching: Automated Program Verification</div>
+                <a href="https://www.cs.cmu.edu/~15414/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2023</span>
+                <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
+                <a href="https://piazza.com/cmu/spring2023/07400">Course Website</a>
+                <p></p>
+                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
+                <a href="https://cmu-research.github.io/07300-f23/">Course Website</a>
+                <p></p>
+                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
+                Taught with Marijn Heule.
+                <a href="https://www.cs.cmu.edu/~mheule/15816-f23/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2022</span>
+                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
+                <a href="https://canvas.cmu.edu/courses/30376/">Course Website</a>
+                <p></p>
+                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
+                Taught with Marijn Heule.
+                <a href="https://www.cs.cmu.edu/~mheule/15816-f22/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2021</span>
+                <div class="course-title">15-414/614 (Spring): Bug Catching: Automated Program Verification</div>
+                Taught with Frank Pfenning.
+                <a href="https://www.cs.cmu.edu/~15414/s21/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2020</span>
+                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
+                Taught with Marijn Heule.
+                <a href="https://www.cs.cmu.edu/~mheule/15816-f20/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2019</span>
+                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
+                Taught with Marijn Heule.
+                <a href="https://www.cs.cmu.edu/~mheule/15816-f19/">Course Website</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <div class="course-box">
+                <span class="course-year">2018</span>
+                <div class="course-title">15-414/614 (Fall): Bug Catching: Automated Program Verification</div>
+                Taught with Matt Fredrikson.
+                <a href="https://www.cs.cmu.edu/~15414/f18/2018/">Course Website</a>
+            </div>
+        </div>
+
+        </section>
+    </div>
+    <footer>
+        <p>rubenm@cs.cmu.edu<br>
+            Carnegie Mellon University, 5000 Forbes Avenue<br>
+            Gates Hillman Complex, GHC 7.129<br>
+            Pittsburgh, PA 15213</p>
+    </footer>
+</body>
+</html>
