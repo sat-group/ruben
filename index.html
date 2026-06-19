@@ -166,6 +166,22 @@
             margin-top: 5px;
         }
 
+        .paper-link-tag {
+            margin-left: 0.35rem;
+            white-space: nowrap;
+        }
+
+        .paper-link-tag a {
+            color: #C41230;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .paper-link-tag a:hover,
+        .paper-link-tag a:focus-visible {
+            text-decoration: underline;
+        }
+
         .course-item {
             margin-bottom: 20px; /* Space between course entries */
         }
@@ -578,7 +594,7 @@
     <header id="top">
         <div class="profile-photo">
             <img
-                src="photo.jpg"
+                src="photo-300.jpg"
                 alt="Ruben Martins"
                 width="150"
                 height="150"
@@ -986,7 +1002,7 @@
         <div class="timeline-year" id="pub-2014">2014</div>        <div class="paper">
             <div class="paper-authors">Ruben Martins, Saurabh Joshi, Vasco Manquinho, Inês Lynce</div>
             <div class="paper-title">Incremental Cardinality Constraints for MaxSAT</div>
-            <div class="paper-details">In Principles and Practice of Constraint Programming (CP'14), Springer, 2014. <b>Most influential paper at CP'14.</b></div>
+            <div class="paper-details">In Principles and Practice of Constraint Programming (CP'14), Springer, 2014. <b><a href="https://freuder.me/cp-anniversary-project/" target="_blank" rel="noopener noreferrer">Most influential paper at CP'14.</a></b></div>
         </div>
         <div class="paper">
             <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
@@ -1254,6 +1270,91 @@
     <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
     <script>
         (function () {
+            const publicationLinks = {
+                "prodebug: an automated debugging system for prolog": { "label": "arXiv", "url": "https://arxiv.org/abs/2605.27124" },
+                "can large language models autoformalize kinematics?": [
+                    { "label": "arXiv", "url": "https://arxiv.org/abs/2509.21840" },
+                    { "label": "doi", "url": "https://doi.org/10.34727/2025/isbn.978-3-85448-084-6_13" }
+                ],
+                "cubes: a parallel synthesizer for sql using examples": { "label": "doi", "url": "https://doi.org/10.1145/3768578" },
+                "combining logic and large language models for assisted debugging and repair of asp programs": { "label": "doi", "url": "https://doi.org/10.1109/icst62969.2025.10988950" },
+                "revisiting unnaturalness for automated program repair in the era of large language models": { "label": "doi", "url": "https://doi.org/10.1109/icse55347.2025.00089" },
+                "the impact of literal sorting on cardinality constraint encodings": { "label": "doi", "url": "https://doi.org/10.1609/aaai.v39i11.33232" },
+                "nodemedic-fine: automatic detection and exploit synthesis for node.js vulnerabilities": { "label": "doi", "url": "https://doi.org/10.14722/ndss.2025.241636" },
+                "reverse-engineering congestion control algorithm behavior": { "label": "doi", "url": "https://doi.org/10.1145/3646547.3688443" },
+                "crabtree: rust api test synthesis guided by coverage and type": { "label": "doi", "url": "https://doi.org/10.1145/3689733" },
+                "automated mathematical discovery and verification: minimizing pentagons in the plane": { "label": "doi", "url": "https://doi.org/10.1007/978-3-031-66997-2_2" },
+                "batfix: repairing language model-based transpilation": { "label": "doi", "url": "https://doi.org/10.1145/3658668" },
+                "large language models for test-free fault localization": { "label": "doi", "url": "https://doi.org/10.1145/3597503.3623342" },
+                "towards provably performant congestion control": { "label": "pdf", "url": "https://www.usenix.org/conference/nsdi24/presentation/agarwal-anup" },
+                "pryde: a modular generalizable workflow for uncovering evasion attacks against stateful firewall deployments": { "label": "doi", "url": "https://doi.org/10.1109/sp54263.2024.00144" },
+                "towards reliable sql synthesis: fuzzing-based evaluation and disambiguation": { "label": "doi", "url": "https://doi.org/10.1007/978-3-031-57259-3_11" },
+                "certified cnf translations for pseudo-boolean solving (extended abstract)": { "label": "doi", "url": "https://doi.org/10.24963/ijcai.2023/716" },
+                "melt: mining effective lightweight transformations from pull requests": [
+                    { "label": "arXiv", "url": "https://doi.org/10.48550/arXiv.2308.14687" },
+                    { "label": "doi", "url": "https://doi.org/10.1109/ASE56229.2023.00117" }
+                ],
+                "upmax: user partitioning for maxsat": { "label": "doi", "url": "https://doi.org/10.4230/lipics.sat.2023.19" },
+                "automating network heuristic design and analysis": { "label": "doi", "url": "https://doi.org/10.1145/3563766.3564085" },
+                "certified cnf translations for pseudo-boolean solving": { "label": "doi", "url": "https://doi.org/10.4230/lipics.sat.2022.16" },
+                "automatic generation of network function accelerators using component-based synthesis": { "label": "doi", "url": "https://doi.org/10.1145/3563647.3563656" },
+                "patch generation with language models: feasibility and scaling behavior": { "label": "pdf", "url": "https://openreview.net/forum?id=rHlzJh_b1-5" },
+                "maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.3233/faia201008" },
+                "counterfeiting congestion control algorithms": { "label": "doi", "url": "https://doi.org/10.1145/3484266.3487381" },
+                "alloymax: bringing maximum satisfaction to relational specifications": { "label": "doi", "url": "https://doi.org/10.1145/3468264.3468587" },
+                "syrust: automatic testing of rust libraries with semantic-aware program synthesis": { "label": "doi", "url": "https://doi.org/10.1145/3453483.3454084" },
+                "soar: a synthesis approach for data science api refactoring": [
+                    { "label": "arXiv", "url": "https://doi.org/10.48550/arxiv.2102.06726" },
+                    { "label": "doi", "url": "https://ieeexplore.ieee.org/document/9402016" }
+                ],
+                "forest: an interactive multi-tree synthesizer for regular expressions": { "label": "doi", "url": "https://doi.org/10.1007/978-3-030-72016-2_9" },
+                "finding invariants of distributed systems: it's a small (enough) world after all": { "label": "pdf", "url": "https://www.usenix.org/conference/nsdi21/presentation/hance" },
+                "formal verification of a mixed-trust synchronization protocol": { "label": "doi", "url": "https://doi.org/10.1145/3453417.3453431" },
+                "program equivalence for assisted grading of functional programs": { "label": "doi", "url": "https://doi.org/10.1145/3428239" },
+                "unchartit: an interactive framework for program recovery from charts": { "label": "doi", "url": "https://doi.org/10.1145/3324884.3416613" },
+                "überspark: practical, provable, end-to-end guarantees on commodity heterogeneous interconnected computing platforms": { "label": "doi", "url": "https://doi.org/10.1145/3421473.3421476" },
+                "squares: a sql synthesizer using query reverse engineering": { "label": "pdf", "url": "https://www.vldb.org/pvldb/vol13/p2853-orvalho.pdf" },
+                "coloring unit-distance strips using sat": { "label": "doi", "url": "https://doi.org/10.29007/btmj" },
+                "encodings for enumeration-based program synthesis": { "label": "doi", "url": "https://doi.org/10.1007/978-3-030-30048-7_34" },
+                "maximal multi-layer specification synthesis": { "label": "doi", "url": "https://doi.org/10.1145/3338906.3338951" },
+                "trinity: an extensible synthesis framework for data science": { "label": "doi", "url": "https://dl.acm.org/doi/10.14778/3352063.3352098" },
+                "parallel maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-63516-3_3" },
+                "approximation strategies for incomplete maxsat": [
+                    { "label": "arXiv", "url": "https://doi.org/10.48550/arxiv.1806.07164" },
+                    { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-98334-9_15" }
+                ],
+                "learning-sensitive backdoors with restarts": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-98334-9_30" },
+                "the effect of structural measures and merges on sat solver performance": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-98334-9_29" },
+                "program synthesis using conflict-driven learning": { "label": "doi", "url": "https://doi.org/10.1145/3192366.3192382" },
+                "component-based synthesis of table consolidation and transformation tasks from examples": { "label": "doi", "url": "https://doi.org/10.1145/3140587.3062351" },
+                "component-based synthesis for complex apis": { "label": "doi", "url": "https://doi.org/10.1145/3093333.3009851" },
+                "automated synthesis of semantic malware signatures using maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.14722/ndss.2017.23379" },
+                "hunter: next-generation code reuse for java": { "label": "doi", "url": "https://doi.org/10.1145/2950290.2983934" },
+                "automatic generation of propagation complete sat encodings": { "label": "doi", "url": "https://doi.org/10.1007/978-3-662-49122-5_26" },
+                "exploiting resolution-based representations for maxsat solving": [
+                    { "label": "arXiv", "url": "https://doi.org/10.48550/arxiv.1505.02405" },
+                    { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-24318-4_20" }
+                ],
+                "generalized totalizer encoding for pseudo-boolean constraints": [
+                    { "label": "arXiv", "url": "http://arxiv.org/abs/1507.05920" },
+                    { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-23219-5_15" }
+                ],
+                "from agentspeak to c for unmanned aerial vehicles": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-22416-9_9" },
+                "successful use of incremental bmc in automotive industry": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-19458-5_5" },
+                "incremental cardinality constraints for maxsat": [
+                    { "label": "arXiv", "url": "http://arxiv.org/abs/1408.4628" },
+                    { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-10428-7_39" },
+                    { "label": "reflections", "url": "https://arxiv.org/pdf/1910.04643" }
+                ],
+                "open-wbo: a modular maxsat solver": { "label": "doi", "url": "https://doi.org/10.1007/978-3-319-09284-3_33" },
+                "community-based partitioning for maxsat solving": { "label": "doi", "url": "https://doi.org/10.1007/978-3-642-39071-5_14" },
+                "on partitioning for maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.3233/978-1-61499-098-7-913" },
+                "clause sharing in parallel maxsat": { "label": "doi", "url": "https://doi.org/10.1007/978-3-642-34413-8_44" },
+                "exploiting cardinality encodings in parallel maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.1109/ictai.2011.54" },
+                "improving unsatisfiability-based algorithms for boolean optimization": { "label": "doi", "url": "https://doi.org/10.1007/978-3-642-14186-7_16" },
+                "improving search space splitting for parallel sat solving": { "label": "doi", "url": "https://doi.org/10.1109/ictai.2010.56" }
+            };
+
             const topButton = document.querySelector('.back-to-top');
             const yearSlider = document.getElementById('publication-year-slider');
             const yearSelect = document.getElementById('publication-year-select');
@@ -1376,8 +1477,45 @@
 
             const shouldShow = () => topButton.classList.toggle('show', window.scrollY > 240);
 
+            const normalizePublicationTitle = (value) => (
+                value
+                    .replace(/\s+/g, ' ')
+                    .replace(/[“”]/g, '"')
+                    .replace(/[’]/g, "'")
+                    .trim()
+                    .toLowerCase()
+            );
+
+            const appendPublicationLinks = () => {
+                document.querySelectorAll('#publications .paper').forEach((paper) => {
+                    const titleNode = paper.querySelector('.paper-title');
+                    const detailsNode = paper.querySelector('.paper-details');
+                    if (!titleNode || !detailsNode) return;
+
+                    const linkInfo = publicationLinks[normalizePublicationTitle(titleNode.textContent || '')];
+                    if (!linkInfo) return;
+
+                    const links = Array.isArray(linkInfo) ? linkInfo : [linkInfo];
+                    links.forEach((entry) => {
+                        const wrapper = document.createElement('span');
+                        wrapper.className = 'paper-link-tag';
+
+                        const link = document.createElement('a');
+                        link.href = entry.url;
+                        link.target = '_blank';
+                        link.rel = 'noopener noreferrer';
+                        link.textContent = `[${entry.label}]`;
+
+                        wrapper.appendChild(document.createTextNode(' '));
+                        wrapper.appendChild(link);
+                        detailsNode.appendChild(wrapper);
+                    });
+                });
+            };
+
             window.addEventListener('scroll', shouldShow, { passive: true });
             window.addEventListener('load', shouldShow);
+            window.addEventListener('load', appendPublicationLinks);
             topButton.addEventListener('click', function (event) {
                 if (!('scrollBehavior' in document.documentElement.style)) {
                     event.preventDefault();
