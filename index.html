@@ -55,8 +55,19 @@
             padding: 1em 0;
         }
         header h1 {
-            margin: 0.5em 0;
+            margin: 0.35em 0 0.3em;
             font-size: clamp(2rem, 5vw, 2.5em); /* Larger font size for the main title */
+        }
+
+        header p {
+            margin: 0 auto 0.35rem;
+            max-width: 48rem;
+            line-height: 1.32;
+        }
+
+        .header-contact {
+            display: inline-block;
+            margin-top: 0.4rem;
         }
         nav ul {
             list-style: none;
@@ -94,7 +105,7 @@
         .profile-photo {
             width: 150px;
             height: 150px;
-            margin: 0 auto 20px;
+            margin: 0 auto 16px;
             border-radius: 50%;
             overflow: hidden;
         }
@@ -232,6 +243,24 @@
             margin-bottom: 1.25rem;
         }
 
+        .students-toggle {
+            margin: 1rem 0 1.25rem;
+            padding: 0.9rem 1rem;
+            background: #f7f7f7;
+            border: 1px solid #e2e2e2;
+            border-radius: 10px;
+        }
+
+        .students-toggle summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #1f1f1f;
+        }
+
+        .students-toggle[open] summary {
+            margin-bottom: 0.85rem;
+        }
+
         .publication-year-control {
             margin: 0.25rem 0 1.2rem;
             padding: 0.85rem;
@@ -304,7 +333,8 @@
             accent-color: #C41230;
         }
 
-        .timeline-item.is-hidden {
+        .timeline-item.is-hidden,
+        .course-item.is-hidden {
             display: none;
         }
 
@@ -604,22 +634,25 @@
         <h1>Ruben Martins</h1>
         <p>Assistant Research Professor at Carnegie Mellon University<br>
         Program Director of the Master of Science in Computer Science (MSCS)<br> 
-        Program Director of the Fifth-Year Master's in Computer Science (5YM)</p>
+        Program Director of the Fifth-Year Master's in Computer Science<br>
+        <span class="header-contact">Gates Hillman Complex, GHC 7.129<br>
+        <a href="mailto:rubenm@cs.cmu.edu">rubenm@cs.cmu.edu</a></span></p>
     </header>
     <nav>
         <ul>
-            <li><a href="#bio">Biography</a></li>
+            <li><a href="#research">Research</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#students">Students</a></li>
             <li><a href="#teaching">Teaching</a></li>
             <li><a href="#mscs">MSCS</a></li>
-            <li><a href="#five-ym">5YM</a></li>
+            <li><a href="#five-ym">Fifth-Year MS</a></li>
+            <li><a href="#bio">Bio</a></li>
         </ul>
     </nav>
     <main id="main-content" class="container" tabindex="-1">
-        <section id="bio">
-            <h2>Biography</h2>
-            <p>Ruben Martins is an Assistant Research Professor at Carnegie Mellon University and the program director of the Master of Science in Computer Science and Fifth-Year Master's in Computer Science. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on pushing the boundaries of program synthesis and enabling the technology to make programming and formal methods tools more accessible. Ruben received his Ph.D. with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at the University of Oxford, UK (2014-2015) and a postdoctoral researcher at UT Austin (2015-2017). He has published in top-tier venues, including POPL, PLDI, FSE, SAT, and CP. He has won a distinguished paper award at PLDI 2018 for his work on program synthesis, FSE 2021 for his work on optimization, and SAT 2022 for his work on verified encodings. He has also developed several award-winning constraint solvers. He is the leading developer of Open-WBO: an open-source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions. Open-WBO is used to solve many real-world discrete optimization problems, including finding an optimal seating arrangement for his wedding.</p>
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on advancing program synthesis and developing technologies that make programming and formal methods more accessible. I seek to combine the rigorous guarantees of automated reasoning with the flexibility and generative capabilities of modern artificial intelligence. My work spans both foundational and applied areas, ranging from constraint solving and formal verification to software engineering, data science, education, and cybersecurity.</p>
         </section>
 
         <section id="publications">
@@ -1097,7 +1130,8 @@
                 <li>
                     <a href="https://www.linkedin.com/in/weiran-shirley-yu-2a1a76279">Shirley Yu</a> (CSD, Senior Thesis, 2024-2025)
                     <ul class="detail-list">
-                        <li><i>Senior Thesis:</i> Diversifying to Verify: Improving Program Verification with Diverse Equivalent Code</li>
+                        <li><i>Senior Thesis:</i> <a href="http://ra.adm.cs.cmu.edu/anon/anon/usr0/anon/usr0/ftp/anon/srthesis/SeniorThesis25-YU-Shirley.pdf">Diversifying to Verify: Improving Program Verification with Diverse Equivalent Code</a></li>
+                        <li><i>First position:</i> MSCS at Stanford University</li>
                     </ul>
                 </li>
             </ul>
@@ -1107,53 +1141,84 @@
                 I am always happy to do research with undergraduate students at CMU for either senior thesis, <a href="https://www.cs.cmu.edu/academics/undergraduate/research">SCS Independent Studies</a>, <a href="https://cmu-research.github.io/07400-s24/">07-400</a>, during the Summer or the <a href="https://www.cmu.edu/scs/s3d/reuse/">REUSE program</a>. I am also happy to work with Master's students for Independent Studies in Computer Science (15-689) or for Master research theses in both the MSCS and Fifth-Year master's programs. 
             </p>
 
-            <p>Previous students that I mentored at CMU:</p>
-
-            <ul>
-                <li>Jose Ferreira (CMU-Portugal Visiting PhD Student, Fall 2025)</li>
-                <li>Max Han (REUSE, Summer 2025)</li>
-                <li>Martim Afonso (CMU-Portugal Visiting PhD Student, Fall 2024)</li>
-                <li>Sophia Kolak (S3D, MSc Student, 2021-2024)</li>
-                <li>Joao Sa (CMU-Portugal Visiting MSc Student, Fall 2023)</li>
-                <li>Aditi Pande (07-400, Spring 2023)</li>
-                <li>Stephanie Eristoff (07-400, Spring 2023)</li>
-                <li>Hailie Mitchell (REUSE, Summer 2022)</li>
-                <li>Andreia Pereira (Visiting MSc Student, Spring 2022)</li>
-                <li>Pedro Nunes (Visiting MSc Student, Spring 2022)</li>
-                <li>Joshua Clune (Research Project, 2019-2020)</li>
-                <li>Harutyun Rehanyan (REUSE, Summer 2020)</li>
-                <li>Aidan Yang (REUSE, Summer 2020)</li>
-                <li>Audrey Seo (REUSE, Summer 2019)</li>
-                <li>Daniel Gibert Llaurado (Visiting PhD Student, Fall 2019)</li>
-                <li>Aaron Meyers (Internship, Summer 2019)</li>
-                <li>Pedro Miguel Orvalho (Visiting MSc student, Spring 2019)</li>
-                <li>Rodrigo Bernado (Visiting MSc Student, Spring 2019)</li>
-                <li>Yinglan Chen (SCS Independent Studies, Spring 2019)</li>
-                <li>Clara Sellke (SCS Independent Studies, Fall 2018)</li>
-                <li>Naveen Pai (SCS Independent Studies, Fall 2018)</li>
-                <li>David Chen (SCS Independent Studies, Fall 2018)</li>
-                <li>Zachary Susag (REUSE, Summer 2018)</li>
-                <li>Avital Rabinovitch (Internship, Summer 2018)</li>
-                <li>Kaige Liu (SCS Independent Studies, Spring 2018)</li>
-                <li>Anlun Xu (SCS Independent Studies, Spring 2018)</li>
-                <li>Tianlei Pan (SCS Independent Studies, Spring 2018)</li>
-                <li>Mayank Jai (SCS Independent Studies, Spring 2018)</li>
-            </ul>
+            <details class="students-toggle">
+                <summary>Previous students mentored at CMU</summary>
+                <ul>
+                    <li>Jose Ferreira (CMU-Portugal Visiting MSc Student, Fall 2025)</li>
+                    <li>Max Han (REUSE, Summer 2025)</li>
+                    <li>Martim Afonso (CMU-Portugal Visiting MSc Student, Fall 2024)</li>
+                    <li>Sophia Kolak (S3D, MSc Student, 2021-2024)</li>
+                    <li>Joao Sa (CMU-Portugal Visiting MSc Student, Fall 2023)</li>
+                    <li>Aditi Pande (07-400, Spring 2023)</li>
+                    <li>Stephanie Eristoff (07-400, Spring 2023)</li>
+                    <li>Hailie Mitchell (REUSE, Summer 2022)</li>
+                    <li>Andreia Pereira (Visiting MSc Student, Spring 2022)</li>
+                    <li>Pedro Nunes (Visiting MSc Student, Spring 2022)</li>
+                    <li>Joshua Clune (Research Project, 2019-2020)</li>
+                    <li>Harutyun Rehanyan (REUSE, Summer 2020)</li>
+                    <li>Aidan Yang (REUSE, Summer 2020)</li>
+                    <li>Audrey Seo (REUSE, Summer 2019)</li>
+                    <li>Daniel Gibert Llaurado (Visiting PhD Student, Fall 2019)</li>
+                    <li>Aaron Meyers (Internship, Summer 2019)</li>
+                    <li>Pedro Miguel Orvalho (Visiting MSc student, Spring 2019)</li>
+                    <li>Rodrigo Bernado (Visiting MSc Student, Spring 2019)</li>
+                    <li>Yinglan Chen (SCS Independent Studies, Spring 2019)</li>
+                    <li>Clara Sellke (SCS Independent Studies, Fall 2018)</li>
+                    <li>Naveen Pai (SCS Independent Studies, Fall 2018)</li>
+                    <li>David Chen (SCS Independent Studies, Fall 2018)</li>
+                    <li>Zachary Susag (REUSE, Summer 2018)</li>
+                    <li>Avital Rabinovitch (Internship, Summer 2018)</li>
+                    <li>Kaige Liu (SCS Independent Studies, Spring 2018)</li>
+                    <li>Anlun Xu (SCS Independent Studies, Spring 2018)</li>
+                    <li>Tianlei Pan (SCS Independent Studies, Spring 2018)</li>
+                    <li>Mayank Jai (SCS Independent Studies, Spring 2018)</li>
+                </ul>
+            </details>
 
             <p>Contact me if you are an undergraduate or master student that wants to work on constraint solving, program verification or program synthesis.</p>
         </section>
         <section id="teaching">
             <h2>Teaching</h2>
+        <div class="publication-year-control">
+            <label for="teaching-year-slider">
+                <span class="publication-year-title">Jump to teaching year</span>
+                <output class="publication-year-selected" id="teaching-year-value" for="teaching-year-slider">2026</output>
+            </label>
+            <div class="publication-year-control__row">
+                <input
+                    class="publication-year-slider"
+                    id="teaching-year-slider"
+                    type="range"
+                    min="0"
+                    max="0"
+                    step="1"
+                    value="0"
+                    aria-describedby="teaching-year-value">
+                <select
+                    class="publication-year-select"
+                    id="teaching-year-select"
+                    aria-label="Jump to teaching year">
+                </select>
+            </div>
+            <label class="publication-filter-toggle" for="teaching-year-filter">
+                <input
+                    id="teaching-year-filter"
+                    type="checkbox"
+                    checked>
+                Show selected year only
+            </label>
+            <div class="publication-year-marks teaching-year-marks" aria-hidden="true"></div>
+        </div>
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2026</span>
+                <span class="course-year" id="teaching-2026">2026</span>
                 <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
                 <a href="https://cmu-research.github.io/07400-s26/">Course Website</a>
             </div>
         </div>    
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2025</span>
+                <span class="course-year" id="teaching-2025">2025</span>
                 <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
                 <a href="https://www.cs.cmu.edu/~rubenm/15816-f25/">Course Website</a>                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
                 <a href="https://cmu-research.github.io/07300-f25/">Course Website</a>
@@ -1162,7 +1227,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2024</span>
+                <span class="course-year" id="teaching-2024">2024</span>
                 <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
                 <a href="https://cmu-research.github.io/07400-s24/">Course Website</a>                <div class="course-title">15-414/614 (Spring): Bug Catching: Automated Program Verification</div>
                 <a href="https://www.cs.cmu.edu/~15414/">Course Website</a>                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
@@ -1172,7 +1237,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2023</span>
+                <span class="course-year" id="teaching-2023">2023</span>
                 <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
                 <a href="https://piazza.com/cmu/spring2023/07400">Course Website</a>                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
                 <a href="https://cmu-research.github.io/07300-f23/">Course Website</a>                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
@@ -1183,7 +1248,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2022</span>
+                <span class="course-year" id="teaching-2022">2022</span>
                 <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>  
                 <a href="https://canvas.cmu.edu/courses/30376/">Course Website</a>                <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
                 Taught with Marijn Heule.
@@ -1193,7 +1258,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2021</span>
+                <span class="course-year" id="teaching-2021">2021</span>
                 <div class="course-title">15-414/614 (Spring): Bug Catching: Automated Program Verification</div>
                 Taught with Frank Pfenning.
                 <a href="https://www.cs.cmu.edu/~15414/s21/">Course Website</a>
@@ -1202,7 +1267,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2020</span>
+                <span class="course-year" id="teaching-2020">2020</span>
                 <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
                 Taught with Marijn Heule.
                 <a href="https://www.cs.cmu.edu/~mheule/15816-f20/">Course Website</a>
@@ -1211,7 +1276,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2019</span>
+                <span class="course-year" id="teaching-2019">2019</span>
                 <div class="course-title">15-816 (Fall): Advanced Topics in Logic: Automated Reasoning and Satisfiability</div>
                 Taught with Marijn Heule.
                 <a href="https://www.cs.cmu.edu/~mheule/15816-f19/">Course Website</a>
@@ -1220,7 +1285,7 @@
 
         <div class="course-item">
             <div class="course-box">
-                <span class="course-year">2018</span>
+                <span class="course-year" id="teaching-2018">2018</span>
                 <div class="course-title">15-414/614 (Fall): Bug Catching: Automated Program Verification</div>
                 Taught with Matt Fredrikson.
                 <a href="https://www.cs.cmu.edu/~15414/f18/2018/">Course Website</a>
@@ -1246,8 +1311,8 @@
         </section>
     
         <section id="five-ym">
-            <h2>5YM</h2>
-            The Fifth-Year Master's Program in Computer Science (5YM) is a research-oriented master's degree that only accepts students with a Bachelor of Science degree from the School of Computer Science at Carnegie Mellon University. The program is designed to give SCS students the chance to gain more research experience by working on a substantial research project resulting in a master's thesis. A portion of our graduates pursue PhD programs at prestigious universities, whereas others transition into employment in industry. If you are interested in applying to the Fifth-Year Master's program or want to know more about the program, please look at the following links:
+            <h2>Fifth-Year MS</h2>
+            The Fifth-Year Master's Program in Computer Science is a research-oriented master's degree that only accepts students with a Bachelor of Science degree from the School of Computer Science at Carnegie Mellon University. The program is designed to give SCS students the chance to gain more research experience by working on a substantial research project resulting in a master's thesis. A portion of our graduates pursue PhD programs at prestigious universities, whereas others transition into employment in industry. If you are interested in applying to the Fifth-Year Master's program or want to know more about the program, please look at the following links:
 
             <ul>
                 <li><a href="https://www.csd.cmu.edu/academics/masters/fifth-year">Program overview</a></li>
@@ -1260,12 +1325,17 @@
                 <a href="mailto: amalloy@cs.cmu.edu"> amalloy@cs.cmu.edu</a>
             </p>
         </section>
+
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>Ruben Martins is an Assistant Research Professor at Carnegie Mellon University and the program director of the Master of Science in Computer Science and Fifth-Year Master's in Computer Science. His interests lie in the intersection of constraint programming with program synthesis, analysis, and verification. His recent research focuses on pushing the boundaries of program synthesis and enabling the technology to make programming and formal methods tools more accessible. Ruben received his Ph.D. with honors from the Technical University of Lisbon, Portugal (2013). He was a postdoctoral researcher at the University of Oxford, UK (2014-2015) and a postdoctoral researcher at UT Austin (2015-2017). He has published in top-tier venues, including POPL, PLDI, FSE, SAT, and CP. He has won a distinguished paper award at PLDI 2018 for his work on program synthesis, FSE 2021 for his work on optimization, and SAT 2022 for his work on verified encodings. He has also developed several award-winning constraint solvers. He is the leading developer of Open-WBO: an open-source Maximum Satisfiability (MaxSAT) solver that won several gold medals in MaxSAT competitions. Open-WBO is used to solve many real-world discrete optimization problems, including finding an optimal seating arrangement for his wedding.</p>
+        </section>
     </main>
     <footer>
         <p><a href="mailto:rubenm@cs.cmu.edu">rubenm@cs.cmu.edu</a><br>
-            Carnegie Mellon University, 5000 Forbes Avenue<br>
-            Gates Hillman Complex, GHC 7.129<br>
-            Pittsburgh, PA 15213</p>
+        Carnegie Mellon University, 5000 Forbes Avenue<br>
+        Gates Hillman Complex, GHC 7.129<br>
+        Pittsburgh, PA 15213</p>
     </footer>
     <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
     <script>
@@ -1361,15 +1431,27 @@
             const yearFilter = document.getElementById('publication-year-filter');
             const yearValue = document.getElementById('publication-year-value');
             const yearMarks = document.querySelector('.publication-year-marks');
+            const teachingYearSlider = document.getElementById('teaching-year-slider');
+            const teachingYearSelect = document.getElementById('teaching-year-select');
+            const teachingYearFilter = document.getElementById('teaching-year-filter');
+            const teachingYearValue = document.getElementById('teaching-year-value');
+            const teachingYearMarks = document.querySelector('.teaching-year-marks');
             const publicationSection = document.getElementById('publications');
             const timelineItems = Array.from(document.querySelectorAll('.timeline-item'));
+            const teachingItems = Array.from(document.querySelectorAll('#teaching .course-item'));
             const allPublicationYears = Array.from(document.querySelectorAll('[id^="pub-"]'))
                 .map((node) => Number(node.id.replace('pub-', '')))
                 .filter((year) => Number.isFinite(year))
                 .sort((a, b) => a - b);
+            const allTeachingYears = Array.from(document.querySelectorAll('.course-year[id^="teaching-"]'))
+                .map((node) => Number(node.id.replace('teaching-', '')))
+                .filter((year) => Number.isFinite(year))
+                .sort((a, b) => a - b);
             const publicationYears = allPublicationYears.slice().reverse();
+            const teachingYears = allTeachingYears.slice().reverse();
 
             const hasPublicationYears = publicationYears.length > 0;
+            const hasTeachingYears = teachingYears.length > 0;
 
             const setPublicationYearControlRange = () => {
                 if (!hasPublicationYears || !yearSlider || !yearMarks || !yearSelect) return;
@@ -1443,6 +1525,77 @@
                 });
             };
 
+            const setTeachingYearControlRange = () => {
+                if (!hasTeachingYears || !teachingYearSlider || !teachingYearMarks || !teachingYearSelect) return;
+                teachingYearSlider.min = '0';
+                teachingYearSlider.max = String(teachingYears.length - 1);
+                teachingYearMarks.innerHTML = '';
+                teachingYearSelect.innerHTML = '';
+
+                teachingYears.forEach((year, index) => {
+                    const marker = document.createElement('a');
+                    marker.textContent = String(year);
+                    marker.href = `#teaching-${year}`;
+                    marker.setAttribute('data-index', String(index));
+                    marker.setAttribute('aria-label', `Jump to teaching from ${year}`);
+                    marker.className = index === 0 ? 'active-year' : '';
+                    marker.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        selectTeachingYear(index, true);
+                    });
+                    marker.addEventListener('keydown', (event) => {
+                        if (event.key !== 'Enter' && event.key !== ' ') return;
+                        event.preventDefault();
+                        selectTeachingYear(index, true);
+                    });
+                    teachingYearMarks.appendChild(marker);
+
+                    const option = document.createElement('option');
+                    option.value = String(index);
+                    option.textContent = String(year);
+                    teachingYearSelect.appendChild(option);
+                });
+            };
+
+            const getTeachingYearAtSlider = (value) => {
+                const index = Number(value);
+                if (!Number.isFinite(index)) return null;
+                return teachingYears[index] || null;
+            };
+
+            const updateTeachingYearMarkers = (index) => {
+                if (!teachingYearMarks) return;
+                teachingYearMarks.querySelectorAll('a').forEach((marker) => {
+                    marker.classList.toggle('active-year', marker.dataset.index === String(index));
+                });
+            };
+
+            const applyTeachingFilter = (year) => {
+                if (!teachingYearFilter || !teachingItems.length) return;
+                const showSelectedYearOnly = teachingYearFilter.checked;
+                teachingItems.forEach((item) => {
+                    const itemYear = Number(item.querySelector('.course-year')?.id.replace('teaching-', ''));
+                    const shouldHide = showSelectedYearOnly && itemYear !== year;
+                    item.classList.toggle('is-hidden', shouldHide);
+                });
+            };
+
+            const scrollToTeachingYear = (year) => {
+                const target = document.getElementById(`teaching-${year}`);
+                if (!target) return;
+                target.scrollIntoView({ behavior: 'auto', block: 'start' });
+                const y = target.getBoundingClientRect().top + window.scrollY - 40;
+                window.scrollTo(0, Math.max(0, y));
+            };
+
+            const scrollToTeachingYearAfterLayout = (year) => {
+                window.requestAnimationFrame(() => {
+                    window.requestAnimationFrame(() => {
+                        scrollToTeachingYear(year);
+                    });
+                });
+            };
+
             const selectPublicationYear = (index, doScroll = false) => {
                 if (!yearSlider || !yearValue || !yearSelect || !yearFilter) return;
                 const normalizedIndex = Number(index);
@@ -1473,6 +1626,40 @@
                 });
                 yearFilter.addEventListener('change', () => selectPublicationYear(yearSlider.value, true));
                 selectPublicationYear(0, false);
+            }
+
+            const selectTeachingYear = (index, doScroll = false) => {
+                if (!teachingYearSlider || !teachingYearValue || !teachingYearSelect || !teachingYearFilter) return;
+                const normalizedIndex = Number(index);
+                if (!Number.isFinite(normalizedIndex)) return;
+                teachingYearSlider.value = String(normalizedIndex);
+                teachingYearSelect.value = String(normalizedIndex);
+                const year = getTeachingYearAtSlider(normalizedIndex);
+                if (!year) return;
+                updateTeachingYearMarkers(normalizedIndex);
+                teachingYearValue.value = year;
+                teachingYearValue.textContent = year;
+                applyTeachingFilter(year);
+                if (doScroll) {
+                    if (teachingYearFilter.checked) {
+                        scrollToTeachingYearAfterLayout(year);
+                    } else {
+                        scrollToTeachingYear(year);
+                    }
+                }
+            };
+
+            if (teachingYearSlider && teachingYearValue && teachingYearSelect && teachingYearFilter) {
+                const currentYear = new Date().getFullYear();
+                const defaultTeachingIndex = Math.max(0, teachingYears.indexOf(currentYear));
+                setTeachingYearControlRange();
+                teachingYearSlider.addEventListener('input', () => selectTeachingYear(teachingYearSlider.value, true));
+                teachingYearSlider.addEventListener('change', () => selectTeachingYear(teachingYearSlider.value, true));
+                teachingYearSelect.addEventListener('change', () => {
+                    selectTeachingYear(teachingYearSelect.value, true);
+                });
+                teachingYearFilter.addEventListener('change', () => selectTeachingYear(teachingYearSlider.value, true));
+                selectTeachingYear(defaultTeachingIndex, false);
             }
 
             const shouldShow = () => topButton.classList.toggle('show', window.scrollY > 240);
