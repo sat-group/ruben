@@ -169,6 +169,25 @@
             margin-bottom: 15px;
         }
 
+        .paper-featured-book {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .paper-featured-book-cover {
+            width: 92px;
+            height: 128px;
+            border-radius: 4px;
+            flex: 0 0 auto;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .paper-featured-book-text {
+            min-width: 0;
+        }
+
         .paper-title {
             font-weight: bold;
         }
@@ -341,7 +360,7 @@
         .last-updated {
             margin-top: 1.5rem;
             font-size: 0.95rem;
-            color: #666;
+            color: #fff;
         }
 
         .publication-year-slider {
@@ -543,6 +562,15 @@
                 padding: 0.8rem;
             }
 
+            .paper-featured-book {
+                flex-direction: column;
+            }
+
+            .paper-featured-book-cover {
+                width: 110px;
+                height: 150px;
+                }
+
             .timeline-year {
                 padding: 0.55rem 0.7rem;
             }
@@ -624,7 +652,7 @@
     <header id="top">
         <div class="profile-photo">
             <img
-                src="photo-300.jpg"
+                src="figures/photo-300.jpg"
                 alt="Ruben Martins"
                 width="150"
                 height="150"
@@ -847,10 +875,18 @@
             </li>
             <li class="timeline-item">
             <div class="timeline-content">
-                <div class="timeline-year" id="pub-2021">2021</div>                <div class="paper">
-            <div class="paper-authors">Fahiem Bacchus, Matti Järvisalo, Ruben Martins</div>
-            <div class="paper-title">Maximum Satisfiability</div>
-            <div class="paper-details">In Handbook of Satisfiability, IOS, 2021.</div>
+                <div class="timeline-year" id="pub-2021">2021</div>                <div class="paper paper-featured-book">
+            <img
+                class="paper-featured-book-cover"
+                src="figures/book-sat.jpg"
+                alt="Cover of Handbook of Satisfiability"
+                loading="lazy"
+            >
+            <div class="paper-featured-book-text">
+                <div class="paper-authors">Fahiem Bacchus, Matti Järvisalo, Ruben Martins</div>
+                <div class="paper-title">Maximum Satisfiability</div>
+                <div class="paper-details">Book chapter. In Handbook of Satisfiability, IOS, 2021.</div>
+            </div>
             </div>
                 <div class="paper">
                     <div class="paper-authors">Margarida Ferreira, Akshay Narayan, Inês Lynce, Ruben Martins, Justine Sherry</div>
@@ -942,10 +978,18 @@
 
 <li class="timeline-item">
     <div class="timeline-content">
-        <div class="timeline-year" id="pub-2018">2018</div>         <div class="paper">
-            <div class="paper-authors">Inês Lynce, Vasco Manquinho, Ruben Martins</div>
-            <div class="paper-title">Parallel Maximum Satisfiability</div>
-            <div class="paper-details">In Handbook of Parallel Constraint Reasoning, Springer, 2018.</div>
+        <div class="timeline-year" id="pub-2018">2018</div>         <div class="paper paper-featured-book">
+            <img
+                class="paper-featured-book-cover"
+                src="figures/book-parallel.jpg"
+                alt="Cover of Handbook of Parallel Constraint Reasoning"
+                loading="lazy"
+            >
+            <div class="paper-featured-book-text">
+                <div class="paper-authors">Inês Lynce, Vasco Manquinho, Ruben Martins</div>
+                <div class="paper-title">Parallel Maximum Satisfiability</div>
+                <div class="paper-details">Book chapter. In Handbook of Parallel Constraint Reasoning, Springer, 2018.</div>
+            </div>
         </div>
         <div class="paper">
             <div class="paper-authors">Saurabh Joshi, Prateek Kumar, Ruben Martins, Sukrut Rao</div>
@@ -1056,10 +1100,18 @@
 </li>
 <li class="timeline-item">
     <div class="timeline-content">
-        <div class="timeline-year" id="pub-2012">2012</div>        <div class="paper">
-            <div class="paper-authors">Ruben Martins, Ana Graça</div>
-            <div class="paper-title">Boolean Satisfiability and Optimization: Games, Puzzles and Genetics (in Portuguese)</div>
-            <div class="paper-details">In Números, Cirurgias e Nós de Gravata, 252-270, IST Press, 2012.</div>
+        <div class="timeline-year" id="pub-2012">2012</div>        <div class="paper paper-featured-book">
+            <img
+                class="paper-featured-book-cover"
+                src="figures/book-ist.jpg"
+                alt="Cover of Números, Cirurgias e Nós de Gravata"
+                loading="lazy"
+            >
+            <div class="paper-featured-book-text">
+                <div class="paper-authors">Ruben Martins, Ana Graça</div>
+                <div class="paper-title">Boolean Satisfiability and Optimization: Games, Puzzles and Genetics (in Portuguese)</div>
+                <div class="paper-details">Book chapter. In Números, Cirurgias e Nós de Gravata, 252-270, IST Press, 2012.</div>
+            </div>
         </div>
         <div class="paper">
             <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
@@ -1099,7 +1151,6 @@
 
             
         </ul>
-        <p class="last-updated">Last updated: June 19, 2026.</p>
         </section>
 
         <section id="students">
@@ -1336,6 +1387,7 @@
         Carnegie Mellon University, 5000 Forbes Avenue<br>
         Gates Hillman Complex, GHC 7.129<br>
         Pittsburgh, PA 15213</p>
+        <p class="last-updated">Last updated: June 20, 2026.</p>
     </footer>
     <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
     <script>
@@ -1369,7 +1421,11 @@
                 "certified cnf translations for pseudo-boolean solving": { "label": "doi", "url": "https://doi.org/10.4230/lipics.sat.2022.16" },
                 "automatic generation of network function accelerators using component-based synthesis": { "label": "doi", "url": "https://doi.org/10.1145/3563647.3563656" },
                 "patch generation with language models: feasibility and scaling behavior": { "label": "pdf", "url": "https://openreview.net/forum?id=rHlzJh_b1-5" },
-                "maximum satisfiability": { "label": "doi", "url": "https://doi.org/10.3233/faia201008" },
+                "maximum satisfiability": [
+                    { "label": "preprint", "url": "papers/maxsat-handbook21.pdf" },
+                    { "label": "doi", "url": "https://doi.org/10.3233/faia201008" }
+                ],
+                "boolean satisfiability and optimization: games, puzzles and genetics (in portuguese)": { "label": "preprint", "url": "papers/martins-graca-ist12.pdf" },
                 "counterfeiting congestion control algorithms": { "label": "doi", "url": "https://doi.org/10.1145/3484266.3487381" },
                 "alloymax: bringing maximum satisfaction to relational specifications": { "label": "doi", "url": "https://doi.org/10.1145/3468264.3468587" },
                 "syrust: automatic testing of rust libraries with semantic-aware program synthesis": { "label": "doi", "url": "https://doi.org/10.1145/3453483.3454084" },
