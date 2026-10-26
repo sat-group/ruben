@@ -719,6 +719,11 @@
             <div class="timeline-content">
                 <div class="timeline-year" id="pub-2026">2026</div>
                 <div class="paper">
+                    <div class="paper-authors">Alvaro F. Silva, Alexandra Mendes, Ruben Martins</div>
+                    <div class="paper-title">DAISY: Fault-Guided Assertion Inference for Dafny</div>
+                    <div class="paper-details">In International Conference on Tools with Artificial Intelligence (ICTAI'26), 2026.</div>
+                </div>
+                <div class="paper">
                     <div class="paper-authors">Aditi Kabra, Jonathan Laurent, Ruben Martins, Stefan Mitsch, André Platzer</div>
                     <div class="paper-title">LLM-Powered Automatic Theorem Proving and Synthesis for Hybrid Systems and Games</div>
                     <div class="paper-details">In Formal Methods in Computer-Aided Design (FMCAD'26), IEEE, 2026.</div>
@@ -752,6 +757,16 @@
                     <div class="paper-authors">David Svoboda, William Klieber, Lori Flynn, Ruben Martins, Jeffrey Hoskinson</div>
                     <div class="paper-title">A Pointer-Ownership Model for C Inspired by Rust</div>
                     <div class="paper-details">In Languages, Compilers, Tools and Theory of Embedded Systems (LCTES'26), 2026.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Daniel Ramos, Catarina Gamboa, Inês Lynce, Vasco Manquinho, Ruben Martins, Claire Le Goues</div>
+                    <div class="paper-title">SPELL: Synthesis of Programmatic Edits using LLMs</div>
+                    <div class="paper-details">In Transactions on Software Engineering and Methodology (TOSEM'26), ACM, 2026.</div>
+                </div>
+                <div class="paper">
+                    <div class="paper-authors">Shirley Yu, Ruben Martins</div>
+                    <div class="paper-title">Diversifying to Verify: When Task-Equivalent Programs Differ in Verifiability</div>
+                    <div class="paper-details">In VERIFAI Workshop, 2026.</div>
                 </div>
             </div>
         </li>
@@ -1149,7 +1164,7 @@
         <div class="paper">
             <div class="paper-authors">Ruben Martins, Vasco Manquinho, Inês Lynce</div>
             <div class="paper-title">Open-WBO: A Modular MaxSAT Solver</div>
-            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT'14), Springer, 2014.</div>
+            <div class="paper-details">In International Conference on Theory and Applications of Satisfiability Testing (SAT'14), Springer, 2014. <a href="https://helda.helsinki.fi/server/api/core/bitstreams/de0e2da3-dd2d-4507-9374-f4f870cfecb3/content" target="_blank" rel="noopener noreferrer">MaxSAT Evaluation onion core award at FLoC 2026</a>.</div>
         </div>
     </div>
 </li>
@@ -1340,6 +1355,8 @@
                 <span class="course-year" id="teaching-2026">2026</span>
                 <div class="course-title">07-400 (Spring): Research Practicum in Computer Science</div>  
                 <a href="https://cmu-research.github.io/07400-s26/">Course Website</a>
+                <div class="course-title">07-300 (Fall): Research and Innovation in Computer Science</div>
+                <a href="https://cmu-research.github.io/07300-f26/">Course Website</a>
             </div>
         </div>    
         <div class="course-item">
@@ -1426,7 +1443,7 @@
             <ul>
                 <li><a href="https://csd.cmu.edu/academics/masters/ms-in-computer-science">Program overview</a></li>
                 <li><a href="https://csd.cmu.edu/academics/masters/admissions">Application</a></li>
-                <li><a href="https://csd.cmu.edu/sites/default/files/2025-08/2025-2026%20MSCS-Handbook-1.pdf">Handbook AY 25-26</a></li>
+                <li><a href="https://csd.cmu.edu/sites/default/files/2026-08/mscs-handbook-2026-2027.pdf">Handbook AY 26-27</a></li>
             </ul>
 
             <p>
@@ -1443,7 +1460,7 @@
             <ul>
                 <li><a href="https://www.csd.cmu.edu/academics/masters/fifth-year">Program overview</a></li>
                 <li><a href="https://csd.cmu.edu/academics/masters/admissions">Application</a></li>
-                <li><a href="https://www.csd.cmu.edu/sites/default/files/2026-01/CSD%202025-2026%205th%20Year%20MS%20Handbook.pdf">Handbook AY 25-26</a></li>
+                <li><a href="https://csd.cmu.edu/sites/default/files/2026-09/2026%20-%202027%205th%20Year%20MS%20Handbook.pdf">Handbook AY 26-27</a></li>
             </ul>
 
             <p>
@@ -1468,15 +1485,38 @@
     <script>
         (function () {
             const publicationLinks = {
+                "daisy: fault-guided assertion inference for dafny": {
+                    "label": "arXiv",
+                    "url": "https://arxiv.org/pdf/2511.00125"
+                },
                 "a pointer-ownership model for c inspired by rust": [
                     { "label": "preprint", "url": "papers/pointer-ownership-lctes26.pdf" },
                     { "label": "doi", "url": "https://doi.org/10.1145/3814943.3816182" }
                 ],
-                "llm-powered automatic theorem proving and synthesis for hybrid systems and games": { "label": "arXiv", "url": "https://arxiv.org/abs/2603.00737" },
+                "llm-powered automatic theorem proving and synthesis for hybrid systems and games": [
+                    { "label": "arXiv", "url": "https://arxiv.org/abs/2603.00737" },
+                    {"label": "pdf", "url": "https://repositum.tuwien.at/bitstream/20.500.12708/230566/1/Kabra-2026-71LLM-Powered%20Automatic%20Theorem%20Proving%20and%20Synthesis%20for%20Hybr...-vor.pdf"}
+                ],
+                "learning to triage vulnerability reports from program analysis: an empirical study in node.js": [
+                    { "label": "arXiv", "url": "https://arxiv.org/abs/2510.20739" },
+                    { "label": "doi", "url": "https://dl.acm.org/doi/pdf/10.1145/3832783.3837503" }
+                ],
                 "prodebug: an automated debugging system for prolog": [
                     { "label": "arXiv", "url": "https://arxiv.org/abs/2605.27124" },
                     { "label": "doi", "url": "https://doi.org/10.1017/S1471068426100507" }
                 ],
+                "proofpulse: interactive proof coverage analysis for dafny": [
+                    { "label": "arXiv", "url": "https://arxiv.org/abs/2608.30818" },
+                    { "label": "doi", "url": "https://dl.acm.org/doi/pdf/10.1145/3832783.3834600" }
+                ],
+                "spell: synthesis of programmatic edits using llms": {
+                    "label": "arXiv",
+                    "url": "https://arxiv.org/pdf/2602.01107"
+                },
+                "diversifying to verify: when task-equivalent programs differ in verifiability": {
+                    "label": "arXiv",
+                    "url": "https://arxiv.org/pdf/2607.09366"
+                },
                 "what bugs do prolog students write? an empirical taxonomy and data-driven mutation framework": [
                     { "label": "arXiv", "url": "https://arxiv.org/abs/2607.21193" },
                     { "label": "doi", "url": "https://doi.org/10.4204/EPTCS.450.14" }
